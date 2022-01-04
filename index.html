@@ -16,22 +16,25 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	
 	<!-- javascript para carregar na pagina -->
+	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
 	<script type="text/javascript" src="js.js">
+		$(function () {
+            $("#header").load("/componentes/header/header.html");
+			$("#main").load("/componentes/main/main.html");
+            $("#footer").load("/componentes/footer/footer.html");
+         });
     </script>
 	<!-- javascript para importar de outro arquivo -->
 	
   </head>
   <body>
-	<header class="header">
-		<!-- Colocar aqui o que deve ter no cabeçalho do projeto -->
-		<nav></nav>
-	</header>
-	<main class="conteiner">
-		<!-- Colocar aqui o que deve ter no corpo do projeto -->
-	</main>
-	<footer class="footer">
-		<!-- Colocar aqui o que deve ter no rodapé do projeto -->
-	</footer>
+	<noscript>
+		<div>You need to enable JavaScript to run this app.</div>
+		<div>Você precisa habilitar o JavaScript para executar este aplicativo.</div>
+    </noscript>
+	<div id="header"></div>
+	<div id="main"></div>
+	<div id="footer"></div>
   </body>
 </html>
 
