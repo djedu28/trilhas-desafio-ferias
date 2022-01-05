@@ -1,0 +1,53 @@
+a {
+  text-decoration:none;
+}
+
+
+:root {
+  font-size: 60%;
+}
+
+
+body,
+input,
+select,
+button,
+textarea {
+  font: 500 1.6rem;
+  /*font: 500 1.6rem Poppins;*/
+  color: var(--color-text-base);
+}
+
+.container {
+  width: 90vw;
+  max-width: 1400px;
+}
+
+@media (min-width: 700px) {
+  :root {
+    font-size: 62.5%;
+  }
+}
+
+/*CORES*/
+:root {
+/*
+	adicionem aqui as cores: exemplo da minha plataforma
+	
+  --main-color: #6842C2;
+  --primary-blue-color: #8257E5;
+  --medium-blue-color: #1b00bd;
+  --primary-black-color: #080808;
+  --second-black-color: #000000;
+  --medium-grey-color: #919191;
+  --light-grey-color:rgba(249, 249, 249, 1);
+  --clear-grey-color: #707070;
+  --light-pink-color: #ffc9d0;
+  --rodape-color:#262626;
+  
+  
+  para usar é so colocar var(nome)
+  exemplo:
+  background: var(--rodape-color);
+*/
+}
