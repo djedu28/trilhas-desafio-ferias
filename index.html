@@ -22,17 +22,10 @@
 	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
 	<script type="text/javascript">
 		$(function () {
-			
-            $("#header").load("./componentes/header/header.html");
-			laodCss("./componentes/header/header.css")
-			
-			$("#main").load("./componentes/main/main.html");
-			laodCss("./componentes/main/main.css")
-			
-            $("#footer").load("./componentes/footer/footer.html");
-			laodCss("./componentes/footer/footer.css")
-         });
-		 
+			laodComp("header",{js:false}) // js=false
+			laodComp("main",{js:false})
+			laodComp("footer",{js:false})
+		});
     </script>
 	
   </head>
