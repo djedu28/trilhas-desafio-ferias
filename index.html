@@ -15,17 +15,26 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	
+	<!-- javascript para importar de outro arquivo -->
+	<script src="./js/script.js"></script>
+	
 	<!-- javascript para carregar na pagina -->
 	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
 	<script type="text/javascript">
 		$(function () {
+			
             $("#header").load("./componentes/header/header.html");
+			laodCss("./componentes/header/header.css")
+			
 			$("#main").load("./componentes/main/main.html");
+			laodCss("./componentes/main/main.css")
+			
             $("#footer").load("./componentes/footer/footer.html");
+			laodCss("./componentes/footer/footer.css")
          });
+		 
     </script>
-	<!-- javascript para importar de outro arquivo -->
-	<script src="./js/script.js"></script>
+	
   </head>
   <body>
 	<noscript>
