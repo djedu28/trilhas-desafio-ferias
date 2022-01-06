@@ -33,10 +33,10 @@ inspirado em pagesJs e micror
 			microroute.callbacks.push(middleware(route, arguments[i]));
 		}
 	}
-
+	
 	
 	microroute.callbacks = [];
-
+	
 	microroute.go = function(path, state, saveState) {
 		var ctx = new Context(path, state);
 		ctx[saveState ? 'saveState' : 'pushState']();
@@ -50,7 +50,7 @@ inspirado em pagesJs e micror
 		}
 		callNextCallback();
 	};
-
+	
 	microroute.run = function(opts) {
 		_base = opts && opts.base ? opts.base : '';
 		_hash = opts && opts.hash ? '#!' : false;
@@ -100,13 +100,13 @@ inspirado em pagesJs e micror
 			next();
 		};
 	}
-
+	
 	function fillParams(match, keys, params) {
 		keys.forEach(function(key, idx) {
 			params[key.name] = match[idx + 1];
 		});
 	}
-
+	
 	function regexp(path, keys) {
 		var regex = path.replace(/\/(:?)([^\/?]+)(\??)(?=\/|$)/g,
 			function(match, isVariable, segment, isOptional) {
@@ -118,7 +118,7 @@ inspirado em pagesJs e micror
 		regex = regex === '*' ? '(.*)' : (regex === '/' ? '' : regex);
 		return new RegExp('^' + regex + '(?:\\/(?=$))?$', 'i');
 	}
-
+	
 	function onClickHandler(e) {
 		var element = e.target;
 		while (typeof element !== 'undefined' && element.nodeName !== 'A') {
@@ -131,7 +131,7 @@ inspirado em pagesJs e micror
 		e.preventDefault();
 		microroute.go(path);
 	}
-
+	
 	function onPopState(e) {
 		if (e.state) {
 			var path = e.state.path;
@@ -140,6 +140,6 @@ inspirado em pagesJs e micror
 			microroute.go(location.pathname + location.hash);
 		}
 	}
-
+	
 	return microroute;
 });

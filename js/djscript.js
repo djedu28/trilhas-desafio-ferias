@@ -41,8 +41,8 @@ function laodComp(name,{html,js,css}){
 }
 
 function laodPage(name,{html,js,css}){
-	if ( html||true ) renderHtml(`#main`,`./pages/${name}/${name}.html`);
-	if ( css ||true ) laodCss(`./pages/${name}/${name}.css`);
-	if ( js  ||true ) laodJs(`./pages/${name}/${name}.js`);
+	if ( html||true ) renderHtml(`#main`,`/pages/${name}/${name}.html`);
+	if ( css ||true ) laodCss(`/pages/${name}/${name}.css`);
+	if ( js  ||true ) laodJs(`/pages/${name}/${name}.js`);
 }
  
