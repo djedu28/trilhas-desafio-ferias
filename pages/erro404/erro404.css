@@ -1,0 +1,11 @@
+#erro404 {
+	height: 50vh;
+	
+	background: red;
+	color: #FFF;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
