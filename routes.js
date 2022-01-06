@@ -9,6 +9,14 @@ microroute("/pagina2",()=>{
 	laodPage("pagina2",{js:false})
 })
 
+microroute("/quiz",()=>{
+	laodPage("quiz",{js:false})
+})
+
+microroute("/cpalavra",()=>{
+	laodPage("cpalavra",{js:false})
+})
+
 microroute("/",()=>{
 	laodPage("home",{js:false})
 })
