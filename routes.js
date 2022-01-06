@@ -17,4 +17,6 @@ microroute("*",()=>{
 	laodPage("erro404",{js:false})
 })
 
-microroute.run()
+microroute.run({
+	base:"/trilhas_desafio_final/"
+})
