@@ -45,4 +45,5 @@ function laodPage(name,{html,js,css}){
 	if ( css ||true ) laodCss(`/pages/${name}/${name}.css`);
 	if ( js  ||true ) laodJs(`/pages/${name}/${name}.js`);
 }
- 
+
+document.addEventListener("DOMContentLoaded", microroute.run, false);

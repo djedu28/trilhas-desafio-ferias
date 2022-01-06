@@ -17,7 +17,7 @@ microroute("*",()=>{
 	laodPage("erro404",{js:false})
 })
 
-microroute.run()
+
 
 // {
 // 	base:"//djedu28.github.io/trilhas_desafio_final",

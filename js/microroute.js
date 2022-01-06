@@ -52,12 +52,12 @@ inspirado em pagesJs e micror
 	};
 	
 	microroute.run = function(opts) {
-		_base = opts && opts.base ? opts.base : '';
-		_hash = opts && opts.hash ? '#!' : false;
+		_base = opts?.base ? opts.base : '';
+		_hash = opts?.hash ? '#!' : false;
 		window.addEventListener('popstate', onPopState, false);
 		document.addEventListener('click', onClickHandler, false);
 		var url = location.pathname + location.search + location.hash;
-		url = _base ? url.replace(_base, '') : '';
+		url = !opts?.base ? url.replace(_base, '') : '';
 		if (_hash && location.hash.indexOf('#!') !== -1) {
 			url = location.hash.substr(2) + location.search;
 		}
