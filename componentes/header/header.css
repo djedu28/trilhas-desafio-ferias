@@ -1,12 +1,12 @@
 header {
 	background: yellow;
-	
+
 }
 
-#header nav {	
-	width: 500px;
+#header nav {
+	/* width: 500px; */
 	height: 50px;
-	
+
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
