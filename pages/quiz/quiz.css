@@ -12,6 +12,7 @@
 
 	color: #000000;
 
+	max-width: 1600px;
 }
 
 .quiz label {
@@ -64,7 +65,7 @@
 	position: absolute;
 	width: 360px;
 	height: 354px;
-	left: 890px;
+	right: 200px;
 	top: 0px;
 	background: rgba(210, 190, 230, 0.83);
 	border-radius: 50%;
@@ -92,5 +93,64 @@
 }
 
 .perguntas{
-	display: none;
+	position: relative;
+	width: 1005.61px;
+	height: 1166.79px;
+	left: 146px;
+	top: 372.4px;
+
+	/* Cinza transparente 01 */
+	background: rgba(229, 229, 229, 0.58);
+	font-size: 24px;
+	line-height: 27px;
+	padding: 20px 10px;
+
+}
+.perguntas p,
+.perguntas label {
+	margin-bottom: 21px;
+}
+
+.perguntas p {
+	padding-right: 28px;
+	font-size: 24px;
+	line-height: 27px;
+	text-align: justify;
+}
+.perguntas label {
+	display: inline-flex;
+	padding: 0 10px;
+}
+.opc-conteiner * {
+	cursor: pointer;
+}
+
+.opc-conteiner i {
+	width: 30px;
+	height: 30px;
+	display: block;
+	border-radius: 50%;
+	border: 1px solid #000000;
+	box-sizing: border-box;
+	background: #FFF;
+	margin-right: 20px;
+
+}
+#quiz input[type=radio] {
+	opacity: 0;
+	z-index: -1;
+}
+
+/* #quiz input[type=radio] + label > i{
+
+} */
+
+#quiz input[type=radio]:checked + label > i{
+	background: #605299;
+}
+.opc-conteiner:hover  i {
+	transition: background 0.5s linear;
+    -webkit-transition: background 0.5s linear;
+    -moz-transition: background 0.5s linear;
+	background: rgba(96, 82, 153, .7)
 }

@@ -8,22 +8,32 @@ function criarPergunta({name,titulo,opcs}){
     const p         = document.createElement('p');
     const opcsHTML  = document.createElement('div');
 
+    opcsHTML.classList.add("pergunta-conteiner")
     // adicionando titulo da pergunta
     p.innerHTML = titulo;
-    p.class = "pergunta";
     // cria os elementos das opções
 
     opcs.forEach( (op)=>{
         const input = document.createElement('input');
         const label = document.createElement('label');
+        const conteiner = document.createElement('div');
+        const icon = document.createElement('i');
+
+        conteiner.classList.add("opc-conteiner")
 
         input.type  = "radio"
         input.name  = name
         input.value = op.value
 
-        label.appendChild(input);
+        input.setAttribute("id",name+op.value)
+        label.setAttribute("for",name+op.value)
+
+        label.appendChild(icon);
         label.innerHTML += op.texto;
-        opcsHTML.appendChild(label);
+
+        conteiner.appendChild(input);
+        conteiner.appendChild(label);
+        opcsHTML.appendChild(conteiner);
     })
 
     pergunta.class = "pergunta-conteiner"
