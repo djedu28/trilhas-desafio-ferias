@@ -14,31 +14,55 @@
 		</div>
 	</div>
 
-	<form class="perguntas">
-
-		<div>
-			<p>1 - Pergunta 1</p>
-			<div>
-				<label><input type="radio" name="questao1" value="certo" /> Certo</label>
-				<label><input type="radio" name="questao1" value="errado"/> Errado</label>
-			</div>
-		</div>
-
-	</form>
+	<form class="perguntas"></form>
 
 	<script type="text/javascript">
 		opcs = [
 			{value:"certo", texto:"Certo"},
 			{value:"errado",texto:"Errado"}
 		]
+		let i = 1;
+		let perguntas = [
+			{
+				name:`pergunta${i++}`,
+				titulo:"Necessário que uma pessoa seja especialista para estudar e aprender sobre educação financeira. Pessoas comuns e jovens não necessitam aprender sobre o assunto. A educação financeira não exerce influência sobre como uma pessoa controla seus gastos, realiza seus investimentos e administra seu capital e dívidas.",
+				resp:"errado",
+				opcs
+			},
+			{
+				name:`pergunta${i++}`,
+				titulo:"Na inflação os efeitos de aumento dos preços de bens e serviços resultam em aumento do poder de compra.",
+				resp:"errado",
+				opcs
+			},
+			{
+				name:`pergunta${i++}`,
+				titulo:"As fintechs são startups inovadoras com produtos e serviços digitais voltados para soluções do mercado financeiro.",
+				resp:"certo",
+				opcs
+			},
+			{
+				name:`pergunta${i++}`,
+				titulo:"De acordo com Peic/CNC, o índice de endividamento das famílias brasileiras aumentou no período dos anos de 2018 a 2020.",
+				resp:"certo",
+				opcs
+			},
+			{
+				name:`pergunta${i++}`,
+				titulo:"Conhecimento e planejamento são ótimos aliados em termos de gestão financeira pessoal.",
+				resp:"certo",
+				opcs
+			}
+		]
 		i = 1
-		const pergunta = criarPergunta({
-			name:`pergunta${i}`,
-			titulo:"Qual das ops?",
-			opcs
-		})
 
 
-		addPergunta(pergunta)
+
+		perguntas.forEach(({ name, titulo, opcs }, i) => {
+			titulo = `${i+1}. ${titulo}`
+			addPergunta(criarPergunta({ name, titulo, opcs }))
+		});
+
+
 	</script>
 </div>
