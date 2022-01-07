@@ -53,16 +53,60 @@
 		}
 	},
 	{
-		"Nome" : 	  		"",
-		"Sobrenome" : 		"",
-		"Nome_completo" : 	"",
-		"Formacao" : 		"",
-		"Trilha" : 			"",
-		"Foto":             "",
+		"Nome" : 	  		"Faustino",
+		"Sobrenome" : 		"G. Neto",
+		"Nome_completo" : 	"Faustino dos Santos Garcez Neto",
+		"Formacao" : 		"Graduando em Eng. Computação ",
+		"Trilha" : 			"Dados",
+		"Foto":             "faustino.jpg",
+		"LinkedIn":			"https://www.linkedin.com/in/faustinoneto/",                      
+		"outras_redes_sociais" : {
+			"instagram" : "",
+			"github":   "https://github.com/FaustinoNeto",
+			"twitter":   "https://twitter.com/Faustineto"
+		}
+	}
+	{
+		"Nome" : 	  		"Leonardo",
+		"Sobrenome" : 		"R. Rodrigues",
+		"Nome_completo" : 	"Leonardo Rocha Rodrigues",
+		"Formacao" : 		"Graduando em Eng. Agronômica",
+		"Trilha" : 			"Dados",
+		"Foto":             "leonardo.jpg",
+		"LinkedIn":			"https://www.linkedin.com/in/leonardo-rocha-rodrigues-ba1aa21a1/",                      
+		"outras_redes_sociais" : {
+			"instagram" : "",
+			"github":   "",
+			"twitter":   ""
+		}
+	},
+	{
+		"Nome" : 	  		"Jhones",
+		"Sobrenome" : 		"de Sousa",
+		"Nome_completo" : 	"Jhones de Sousa Soares",
+		"Formacao" : 		"BICT - Bacharelado Interdisciplinar em Ciência e Tecnologia",
+		"Trilha" : 			"Programação",
+		"Foto":             "jhones.jpg",
+		"LinkedIn":			"https://www.linkedin.com/in/jhones-de-sousa-soares-5229b41a6/",                      
+		"outras_redes_sociais" : {
+			"instagram" : "",
+			"github":   "https://github.com/Jhones257",
+			"twitter":   ""
+		}
+	},
+	{
+		"Nome" : 	  		"Gisnara",
+		"Sobrenome" : 		"Pires",
+		"Nome_completo" : 	"Gisnara Pires",
+		"Formacao" : 		"Graduada em Engenharia Elétrica pela UFMA | Programadora na Sotreq Caterpillar ",
+		"Trilha" : 			"Dados",
+		"Foto":             "gisnara.jpg",
 		"LinkedIn":			"",                      
 		"outras_redes_sociais" : {
 			"instagram" : "",
-			"github":   ""
+			"github":   "",
+			"twitter":   ""
 		}
-	}
+	},
+
 ]
