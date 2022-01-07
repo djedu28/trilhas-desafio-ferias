@@ -10,7 +10,7 @@ microroute("/pagina2",()=>{
 })
 
 microroute("/quiz",()=>{
-	laodPage("quiz",{js:false})
+	laodPage("quiz")
 })
 
 microroute("/cpalavra",()=>{

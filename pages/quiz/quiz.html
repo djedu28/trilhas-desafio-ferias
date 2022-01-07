@@ -1,5 +1,44 @@
 <div class="quiz">
 
-	Olá, eu sou  quiz
-	
+	<div class="info-topo">
+		<p class="titulo">Quiz da Semana</p>
+
+		<div class="bolha">
+			<p>Atenção:</p>
+			<pre>
+				Em cada semana do curso de educação financeira você receberá um novo quiz para responder. Aqui você vai medir seu aprendizado e ainda participar do pódio de gamificação do curso! Faça seu login e vamos lá!
+			</pre>
+		</div>
+		<div class="bloco">
+			Quiz n. 01: Marque entre certo ou errado as assertivas abaixo com base no aprendizado que você obteve durante essa semana:
+		</div>
+	</div>
+
+	<form class="perguntas">
+
+		<div>
+			<p>1 - Pergunta 1</p>
+			<div>
+				<label><input type="radio" name="questao1" value="certo" /> Certo</label>
+				<label><input type="radio" name="questao1" value="errado"/> Errado</label>
+			</div>
+		</div>
+
+	</form>
+
+	<script type="text/javascript">
+		opcs = [
+			{value:"certo", texto:"Certo"},
+			{value:"errado",texto:"Errado"}
+		]
+		i = 1
+		const pergunta = criarPergunta({
+			name:`pergunta${i}`,
+			titulo:"Qual das ops?",
+			opcs
+		})
+
+
+		addPergunta(pergunta)
+	</script>
 </div>
