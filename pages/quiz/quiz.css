@@ -20,6 +20,13 @@
 
 }
 
+.centralizar,
+.titulo,
+.info {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 
 .info-topo {
 	position: relative;
@@ -27,7 +34,6 @@
 	border-top: solid 3px red;
 }
 .titulo {
-	display: block;
 	position: absolute;
 	width: 808px;
 	height: 54px;
@@ -37,7 +43,7 @@
 	/* Amarelo 01 */
 	background: rgba(241, 245, 37, 0.64);
 
-	text-align: center;
+	font-weight: 600;
 }
 
 
@@ -54,7 +60,37 @@
 	text-align: center;
 
 }
-.bolha,
+.bolha{
+	position: absolute;
+	width: 360px;
+	height: 354px;
+	left: 890px;
+	top: 0px;
+	background: rgba(210, 190, 230, 0.83);
+	border-radius: 50%;
+}
+.bolha p{
+	position: absolute;
+	width: 106px;
+	height: 45px;
+	left: 120px;
+	top: 16px;
+	font-weight: 600;
+
+}
+.bolha div{
+	position: absolute;
+	width: 289.46px;
+	height: 248.11px;
+	left: 53px;
+	top: 83.26px;
+	font-weight: 500;
+	font-family: Rokkitt;
+	font-size: 24px;
+	line-height: 27px;
+	transform: rotate(-1.24deg);
+}
+
 .perguntas{
 	display: none;
 }
