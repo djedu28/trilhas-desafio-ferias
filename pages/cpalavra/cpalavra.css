@@ -1,5 +1,109 @@
-.cpalavra {
+.container__titulo--texto1{
+	font-family: 'Schoolbell', cursive;
+	font-weight: 400px;
+	font-size: 32px;
+	line-height: 45px;
+}
 
-	background: #aadde3;
+.container__titulo{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 70px;
+	background-color:rgba(241, 245, 37, 0.64);
+	width: 808px;
+	height: 54px;
 
+}
+
+.container__jogo{
+	display: flex;
+	justify-content: space-between;
+	margin: 85px 85px 10px 85px;
+
+}
+
+.container__jogo--area{
+	width: 647px;
+	height: 729px;
+	background-color: rgba(210, 190, 230, 0.83);
+}
+
+.imagem__financeiro--jogo{
+	width: 341px;
+	height: 365px;
+}
+
+.container__jogo--texto{
+	border-radius: 300px;
+	background-color: rgba(210, 190, 230, 0.83);
+	width: 360px;
+	height: 354px;
+}
+
+.container__jogo--texto h2{
+	font-family: Rokkitt;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 27px;
+	width: 289px;
+	padding-bottom: 15px;
+	padding-top: 80px;
+	margin-left: 50px;
+}
+
+.container__jogo--texto h3{
+	font-family: 'Schoolbell', cursive;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 45px;
+	width: 289px;
+	margin-left: 50px;
+}
+
+.container__dicas{
+	display: flex;
+	margin: 0px 85px 0px 120px;
+	padding: 20px;
+	align-items: center;
+	width: 383px;
+	height: 152px;
+	background: rgba(241, 245, 37, 0.64);
+}
+
+.container__dicas--texto p {
+	font-family: 'Schoolbell', cursive;
+	font-weight: 400px;
+	font-size: 32px;
+	line-height: 45px;
+}
+
+.dicas__lista{
+	width: 936px;
+	height: 248px;
+	margin: 15px 85px 0px 150px;
+}
+.dicas__lista ol li{
+	font-family: Rokkitt;
+	font-weight: 400px;
+	font-size: 24px;
+	line-height: 27,29px;
+}
+
+.container__niveis{
+	display: flex;
+	width: 350px;
+	height: 54px;
+	background: rgba(241, 245, 37, 0.64);
+	justify-content: center;
+	margin: 45px 45px 45px 965px;
+}
+
+.container__niveis--texto p{
+	font-family: 'Schoolbell', cursive;
+	font-size: 32px;
+	line-height: 42px;
+	font-weight: 400px;
+	margin-top: 10px;
 }
