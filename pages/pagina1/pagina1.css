@@ -12,6 +12,10 @@
     text-align: center;
 }
 .page1-bem-vindo .texto1{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+  
     width: 50%;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgba(229, 229, 229, 0.58);
 }
