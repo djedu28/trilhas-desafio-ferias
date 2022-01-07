@@ -30,6 +30,17 @@ textarea {
 
 /*CORES*/
 :root {
+	--roxo-01-color : rgba(96, 82, 153, 1);
+	--lilás-01-color: rgba(210, 190, 230, 0.83);
+	--cinza-01-color : rgba(229, 229, 229, 1);
+	--cinza-transparente-01-color : rgba(229, 229, 229, 0.58);
+	--cinza-transparente-02-color : rgba(196, 196, 196, 0.05);
+	--amarelo-01-color : rgba(241, 245, 37, 0.64);
+	--amarelo-transparente-color : rgba(241, 245, 37, 0.2);
+	--preto-color : rgba(0, 0, 0, 1);
+	--branco-fundo-color : rgba(255, 255, 255, 1);
+	--fundo-color: #E5E5E5;
+	
 /*
 	adicionem aqui as cores: exemplo da minha plataforma
 	

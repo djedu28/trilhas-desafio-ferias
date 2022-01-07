@@ -121,7 +121,7 @@ inspirado em pagesJs e micror
 	
 	function onClickHandler(e) {
 		var element = e.target;
-		while (typeof element !== 'undefined' && element.nodeName !== 'A') {
+		while ( !!element && element.nodeName !== 'A') {
 			element = element.parentNode;
 		}
 		if (!element || element.nodeName !== 'A') {
