@@ -1,5 +1,5 @@
 # Conheça a GFA - Guia Financeiro para Adolescentes
-## 💻 Landing Page desenvolvida durante o 2º Desafio Integrado | Programa Trilhas
+## 💻 Site desenvolvido durante o 2º Desafio Integrado | Programa Trilhas
 
 💭 <em>“Pela educação financeira de todos!”</em>
 
@@ -12,3 +12,5 @@ no mundo do Mercado Financeiro e Investimentos.
 - ✨GFA é uma plataforma que oferta um curso de educação financeira de
 forma dinâmica, interativa, didática e atrativa para os adolescentes que estão
 estudando o Ensino Médio.
+
+- ✨Nosso objetivo é instruir a nova geração sobre o mundo fincanceiro e de investimentos.
