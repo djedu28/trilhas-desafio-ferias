@@ -8,10 +8,10 @@
 		"Foto":             "eduardodj.png",
 		"LinkedIn":			"https://www.linkedin.com/in/luis-eduardo-silva-dos-santos-dj28/",                      
 		"outras_redes_sociais" : {
-			"instagram: "https://instagram.com/DjEdu28/",
+			"instagram" : "https://instagram.com/DjEdu28/",
 			"github":   "https://github.com/DjEdu28"
 		}
-	}
+	},
 	{
 
 		"Nome" : 	  		"Tadeu",
@@ -22,10 +22,10 @@
 		"Foto":             "tadeu.jpg",
 		"LinkedIn": 		"https://www.linkedin.com/in/tadeu-costa-vi%C3%A9gas-8499a41b0/",
 		"outras_redes_sociais" : {
-			"instagram: "https://www.instagram.com/_tadeucosta/",
+			"instagram" : "https://www.instagram.com/_tadeucosta/",
 			"github": "https://github.com/TadeuViegas"
 		}
-	}
+	},
 	{
 		"Nome" : 	  		"Winne",
 		"Sobrenome" : 		"GW. Moraes",
@@ -35,7 +35,7 @@
 		"Foto":             "winne.jpg",
 		"LinkedIn":			"https://www.linkedin.com/in/glacyane-winne-tavares-moraes-b8661421b/",                      
 		"outras_redes_sociais" : {
-			"instagram: "https://instagram.com/gwinnemoraes",
+			"instagram" : "https://instagram.com/gwinnemoraes",
 			"github":   ""
 		}
 	},
@@ -48,7 +48,7 @@
 		"Foto":             "alana_cristina;jpg",
 		"LinkedIn":			"",                      
 		"outras_redes_sociais" : {
-			"instagram: "https://instagram.com/alanna_cris",
+			"instagram" : "https://instagram.com/alanna_cris",
 			"github":   ""
 		}
 	},
@@ -61,8 +61,8 @@
 		"Foto":             "",
 		"LinkedIn":			"",                      
 		"outras_redes_sociais" : {
-			"instagram: "",
+			"instagram" : "",
 			"github":   ""
 		}
-	},
-}
+	}
+]
