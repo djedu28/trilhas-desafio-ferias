@@ -11,7 +11,7 @@ function criarPergunta({name,titulo,opcs}){
     opcsHTML.classList.add("pergunta-conteiner")
     // adicionando titulo da pergunta
     p.innerHTML = titulo;
-    p.setAttribute("id",name);
+    pergunta.setAttribute("id",name);
     // cria os elementos das opções
 
     opcs.forEach( (op)=>{
@@ -94,7 +94,7 @@ function Enviar(e){
         }
         return {name:acertou}
     });
-    soma = 1;
+    soma = 0;
     acertos.forEach(x=>x.name?soma++:0)
     alert(`Você acertou ${soma}`)
     return acertos

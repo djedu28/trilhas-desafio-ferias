@@ -16,12 +16,6 @@
 	position: relative;
 }
 
-.quiz label {
-
-	display: block;
-
-}
-
 .quiz .centralizar,
 .quiz .titulo,
 .quiz .info {
@@ -123,6 +117,7 @@
 .quiz .perguntas label {
 	display: inline-flex;
 	padding: 0 10px;
+	width: 90%;
 }
 .quiz .opc-conteiner * {
 	cursor: pointer;
