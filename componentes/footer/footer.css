@@ -104,7 +104,7 @@
 	display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
 
 }
 .footer .membro {
@@ -127,6 +127,8 @@
 }
 .footer .membro .redes-sociais a{
 	margin-left: -5px;
+	border: var(--roxo-01-color) 2px solid;
+	border-radius: 50%;
 }
 .footer .membro .redes-sociais a:nth-last-of-type(3),
 .footer .membro .redes-sociais a:nth-child(3) {
