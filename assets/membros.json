@@ -135,6 +135,20 @@
 			"github":     "https://github.com/RaquelAlencar",
 			"twitter":    ""
 		}
+	},
+	{
+		"Nome" : 	  		"André Luis",
+		"Sobrenome" : 		"Pereira",
+		"Nome_completo" : 	"André Luis Pereira",
+		"Formacao" : 		"Graduando em Sistemas de informação | Estagiário na empresa Maxnivel e tecnologia.",
+		"Trilha" : 			"Programação",
+		"Foto":             "andre.png",
+		"Redes_sociais" : {
+			"linkedin":   "https://www.linkedin.com/in/andr%C3%A9-luis-pereira-b03090220",
+			"instagram" : "",
+			"github":     "https://github.com/Rudz1",
+			"twitter":    ""
+		}
 	}
 
 ]
