@@ -1,4 +1,4 @@
-.cabecalho.cabeçalho__container{
+.cabecalho .cabeçalho__container{
     position: absolute;
     width: 100%;
     height: 313px;
@@ -7,7 +7,7 @@
     justify-content: space-between;
 }
 
-.cabecalho.p{
+.cabecalho .p{
     color: var(--texto-cabeçalho);
     text-align: center;
     position: absolute;
@@ -23,14 +23,14 @@
     line-height: 58px;
 }
 
-.cabecalho.logo{
+.cabecalho .logo{
     width: 25rem;
     margin-left: 3rem;
     margin-top: 2rem;
     margin-bottom: 3rem;
 }
 
-.cabecalho.menu__lista{
+.cabecalho .menu__lista{
     display: flex;
     background: var(--cinza-transparente-01-color);
 
@@ -40,34 +40,16 @@
     top: 259px
 }
 
-.cabecalho.menu1__lista{
-    display: flex;
-    width: 100%;
-    height: 35px;
-    left: 62px;
-    top: 259px
-}
-
-.cabecalho.menu1__item{
+.cabecalho .menu__item{
     list-style: none;
 }
 
 
-.cabecalho.menu__item{
-    list-style: none;
-}
-
-.cabecalho.menu1__link::before {content: "•"; color: yellow}
-.cabecalho.menu__link::before {content: "•"; color: yellow}
-
-.cabecalho.menu1__item:hover{
-    font-weight: bold;
-}
-.cabecalho.menu__item:hover{
+.cabecalho .menu__item:hover{
     font-weight: bold;
 }
 
-.cabecalho.menu1__link{
+.cabecalho .menu__link{
     color: black;
     margin-left: 15rem;
     text-decoration: none;
@@ -75,13 +57,3 @@
     font-size: 24px;
     line-height: 28px;
 }
-
-.cabecalho.menu__link{
-    color: black;
-    margin-left: 15rem;
-    text-decoration: none;
-    text-transform: upercase;
-    font-size: 24px;
-    line-height: 28px;
-}
-
