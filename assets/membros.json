@@ -6,10 +6,10 @@
 		"Formacao" : 		"Graduando em Eng. Mecânica | Estagiário no Inova Maranhão",
 		"Trilha" : 			"Design",
 		"Foto":             "eduardodj.png",
-		"LinkedIn":			"https://www.linkedin.com/in/luis-eduardo-silva-dos-santos-dj28/",                      
-		"outras_redes_sociais" : {
+		"Redes_sociais" : {
+			"LinkedIn":   "https://www.linkedin.com/in/luis-eduardo-silva-dos-santos-dj28/",
 			"instagram" : "https://instagram.com/DjEdu28/",
-			"github":   "https://github.com/DjEdu28"
+			"github":     "https://github.com/DjEdu28"
 		}
 	},
 	{
@@ -19,9 +19,9 @@
 		"Nome_completo" : 	"Tadeu Costa Viegas",
 		"Formacao" : 		"Estudante de Sistemas de Informação",
 		"Trilha" :			"Programação",
-		"Foto":             "tadeu.jpg",
-		"LinkedIn": 		"https://www.linkedin.com/in/tadeu-costa-vi%C3%A9gas-8499a41b0/",
-		"outras_redes_sociais" : {
+		"Foto":             "tadeu.png",
+		"Redes_sociais" : {
+			"LinkedIn": 		"https://www.linkedin.com/in/tadeu-costa-vi%C3%A9gas-8499a41b0/",
 			"instagram" : "https://www.instagram.com/_tadeucosta/",
 			"github": "https://github.com/TadeuViegas"
 		}
@@ -31,12 +31,12 @@
 		"Sobrenome" : 		"GW. Moraes",
 		"Nome_completo" : 	"Glacyane Winne Tavares Moraes",
 		"Formacao" : 		"Graduada em Ciências Biológicas ",
-		"Trilha" : 			"Ciência de Dados",
-		"Foto":             "winne.jpg",
-		"LinkedIn":			"https://www.linkedin.com/in/glacyane-winne-tavares-moraes-b8661421b/",                      
-		"outras_redes_sociais" : {
+		"Trilha" : 			"Dados",
+		"Foto":             "winne.png",
+		"Redes_sociais" : {
+			"LinkedIn":   "https://www.linkedin.com/in/glacyane-winne-tavares-moraes-b8661421b/",
 			"instagram" : "https://instagram.com/gwinnemoraes",
-			"github":   ""
+			"github":     ""
 		}
 	},
 	{
@@ -45,11 +45,11 @@
 		"Nome_completo" : 	"Alana Cristina dos Santos Mendes",
 		"Formacao" : 		"Licenciatura Plena em Pedagogia",
 		"Trilha" : 			"Design",
-		"Foto":             "alana_cristina;jpg",
-		"LinkedIn":			"",                      
-		"outras_redes_sociais" : {
+		"Foto":             "alana.png",
+		"Redes_sociais" : {
+			"LinkedIn":   "",
 			"instagram" : "https://instagram.com/alanna_cris",
-			"github":   ""
+			"github":     ""
 		}
 	},
 	{
@@ -58,26 +58,26 @@
 		"Nome_completo" : 	"Faustino dos Santos Garcez Neto",
 		"Formacao" : 		"Graduando em Eng. Computação ",
 		"Trilha" : 			"Dados",
-		"Foto":             "faustino.jpg",
-		"LinkedIn":			"https://www.linkedin.com/in/faustinoneto/",                      
-		"outras_redes_sociais" : {
+		"Foto":             "faustino.png",
+		"Redes_sociais" : {
+			"LinkedIn":   "https://www.linkedin.com/in/faustinoneto/",
 			"instagram" : "",
-			"github":   "https://github.com/FaustinoNeto",
-			"twitter":   "https://twitter.com/Faustineto"
+			"github":     "https://github.com/FaustinoNeto",
+			"twitter":    "https://twitter.com/Faustineto"
 		}
-	}
+	},
 	{
 		"Nome" : 	  		"Leonardo",
 		"Sobrenome" : 		"R. Rodrigues",
 		"Nome_completo" : 	"Leonardo Rocha Rodrigues",
 		"Formacao" : 		"Graduando em Eng. Agronômica",
 		"Trilha" : 			"Dados",
-		"Foto":             "leonardo.jpg",
-		"LinkedIn":			"https://www.linkedin.com/in/leonardo-rocha-rodrigues-ba1aa21a1/",                      
-		"outras_redes_sociais" : {
+		"Foto":             "leonardo.png",
+		"Redes_sociais" : {
+			"LinkedIn":   "https://www.linkedin.com/in/leonardo-rocha-rodrigues-ba1aa21a1/",
 			"instagram" : "",
-			"github":   "",
-			"twitter":   ""
+			"github":     "",
+			"twitter":    ""
 		}
 	},
 	{
@@ -86,12 +86,12 @@
 		"Nome_completo" : 	"Jhones de Sousa Soares",
 		"Formacao" : 		"BICT - Bacharelado Interdisciplinar em Ciência e Tecnologia",
 		"Trilha" : 			"Programação",
-		"Foto":             "jhones.jpg",
-		"LinkedIn":			"https://www.linkedin.com/in/jhones-de-sousa-soares-5229b41a6/",                      
-		"outras_redes_sociais" : {
+		"Foto":             "jhones.png",
+		"Redes_sociais" : {
+			"LinkedIn":   "https://www.linkedin.com/in/jhones-de-sousa-soares-5229b41a6/",
 			"instagram" : "",
-			"github":   "https://github.com/Jhones257",
-			"twitter":   ""
+			"github":     "https://github.com/Jhones257",
+			"twitter":    ""
 		}
 	},
 	{
@@ -100,13 +100,41 @@
 		"Nome_completo" : 	"Gisnara Pires",
 		"Formacao" : 		"Graduada em Engenharia Elétrica pela UFMA | Programadora na Sotreq Caterpillar ",
 		"Trilha" : 			"Dados",
-		"Foto":             "gisnara.jpg",
-		"LinkedIn":			"",                      
-		"outras_redes_sociais" : {
+		"Foto":             "gisnara.png",
+		"Redes_sociais" : {
+			"LinkedIn":   "",
 			"instagram" : "",
-			"github":   "",
-			"twitter":   ""
+			"github":     "",
+			"twitter":    ""
 		}
 	},
+	{
+		"Nome" : 	  		"Gianni",
+		"Sobrenome" : 		"Christine",
+		"Nome_completo" : 	"Gianni Christine",
+		"Formacao" : 		"Graduada em Enfermagem e Direito - UEMA; Pós -Graduanda em Direito Constitucional | Processual Penal e Difusos e Coletivos",
+		"Trilha" : 			"Design",
+		"Foto":             "gianni.png",
+		"Redes_sociais" : {
+			"LinkedIn":   "",
+			"instagram" : "https://instagram.com/giannichristine",
+			"github":     "",
+			"twitter":    ""
+		}
+	},
+	{
+		"Nome" : 	  		"Raquel",
+		"Sobrenome" : 		"Alencar",
+		"Nome_completo" : 	"Raquel Alencar",
+		"Formacao" : 		"Graduada em Ciências Naturais - Biologia - Licenciatura",
+		"Trilha" : 			"Programação",
+		"Foto":             "raquel.png",
+		"Redes_sociais" : {
+			"LinkedIn":   "",
+			"instagram" : "",
+			"github":     "https://github.com/RaquelAlencar",
+			"twitter":    ""
+		}
+	}
 
 ]
