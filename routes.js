@@ -5,17 +5,35 @@ $(function () {
 	laodComp("footer",{js:false})
 })
 
-microroute("/pagina2",()=>{
+microroute("#Entrar",()=>{
+	popUp("Entrar");
+})
+
+microroute("#Inscrever",()=>{
+	popUp("Inscrever");
+})
+
+microroute("/Fotos_e_Fatos",()=>{
 	laodPage("pagina2",{js:false})
 })
 
-microroute("/quiz",()=>{
+microroute("/Quiz",()=>{
 	laodPage("quiz")
 })
 
-microroute("/cpalavra",()=>{
+microroute("/Palavras_Cruzadas",()=>{
 	laodPage("cpalavra",{js:false})
 })
+
+microroute("/Duvidas",()=>{
+	laodPage("cpalavra",{js:false})
+})
+
+microroute("/",()=>{
+	laodPage("pagina4",{js:false})
+})
+
+/**************************/
 
 microroute("/",()=>{
 	laodPage("pagina1",{js:false})
