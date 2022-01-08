@@ -18,7 +18,7 @@ microroute("/cpalavra",()=>{
 })
 
 microroute("/",()=>{
-	laodPage("home",{js:false})
+	laodPage("pagina1",{js:false})
 })
 
 microroute("*",()=>{
