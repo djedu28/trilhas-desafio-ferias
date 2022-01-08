@@ -1,3 +1,5 @@
+/*
+
 .cabecalho .cabeçalho__container{
     position: absolute;
     width: 100%;
@@ -56,4 +58,116 @@
     text-transform: upercase;
     font-size: 24px;
     line-height: 28px;
+}
+
+*/
+
+.header {
+    position: relative;
+    width: 100vw;
+    min-width: 1440px;
+    height: 313px;
+    background: var(--roxo-01-color);
+}
+
+.header .nav1{
+    position: absolute;
+    top:0;
+
+}
+.header .titulo {
+
+    width: 893px;
+    /* height: 132px; */
+
+    position: absolute;
+    left: 332px;
+    top: 111px;
+
+
+    color: var(--texto-cabecalho);
+    text-align: center;
+    font-family: 'Architects Daughter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 58px;
+}
+.header .titulo h1 {
+    font-size: 42px;
+    line-height: 58px;
+    margin-bottom: 30px;
+}
+.header .titulo h2 {
+    font-size: 32px;
+    line-height: 44px;
+    text-align: end;
+    font-weight: 400;
+    color: #E5E5E5;
+
+}
+.header .logo {
+    width: 283px;
+    height: 235px;
+    margin-left: 22px;
+    margin-top: 15px;
+}
+.header .nav1{
+    top:0;
+    left: 905px;
+}
+.header .nav2{
+    bottom: 0;
+    width: 100vw;
+}
+.header .nav2 ul{
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.header a {
+    text-decoration: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+.header nav{
+    position: absolute;
+    /* Cinza transparente 01 */
+    background: var(--cinza-transparente-01-color);
+
+    height: 54px;
+    display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.header nav div {
+    display: flex;
+    align-items: center;
+	justify-content: center;
+    padding: 0 10px;
+}
+.header nav i {
+    display: block;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    background-color: var(--amarelo-01-color);
+    margin-right: 10px;
+}
+.header nav .i-azul{
+    background-color: var(--roxo-01-color)
+
+}
+.header nav .i-amarelo{
+    background-color: var(--amarelo-01-color)
+
 }

@@ -40,11 +40,11 @@ textarea {
 	--preto-color : rgba(0, 0, 0, 1);
 	--branco-fundo-color : rgba(255, 255, 255, 1);
 	--fundo-color: #E5E5E5;
-  --texto-cabecalho: #FFFFFF;
-	
+    --texto-cabecalho: #FFFFFF;
+
 /*
 	adicionem aqui as cores: exemplo da minha plataforma
-	
+
   --main-color: #6842C2;
   --primary-blue-color: #8257E5;
   --medium-blue-color: #1b00bd;
@@ -55,8 +55,8 @@ textarea {
   --clear-grey-color: #707070;
   --light-pink-color: #ffc9d0;
   --rodape-color:#262626;
-  
-  
+
+
   para usar é so colocar var(nome)
   exemplo:
   background: var(--rodape-color);
