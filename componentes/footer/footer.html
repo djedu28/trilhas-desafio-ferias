@@ -79,7 +79,7 @@
 
 		const membrosHTML = document.getElementsByClassName("membros")[0]
 		$.getJSON('assets/membros.json', membros => {
-			membros.forEach(membro => {
+			membros.sort((a, b)=>a.Nome.localeCompare(b.Nome)).forEach(membro => {
 				membrosHTML.appendChild(criarMembro(membro))
 			});
 		})
