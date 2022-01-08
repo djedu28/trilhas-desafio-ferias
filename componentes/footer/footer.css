@@ -122,12 +122,14 @@
 	align-items: center;
 	align-content: center;
 	flex-wrap: nowrap;
+	margin-left: -10px
 }
 .footer .membro .redes-sociais a{
-	margin-left: -20px;
+	margin-left: -5px;
 }
-.footer .membro .redes-sociais a:nth-child(2) {
-	margin-left: 0;
+.footer .membro .redes-sociais a:nth-last-of-type(3),
+.footer .membro .redes-sociais a:nth-child(3) {
+	margin-left: -30px;
 }
 .footer .membro img {
 	width: 150px; /*width: 152px;*/
@@ -173,4 +175,14 @@
 }
 
 
-.redes-sociais
+.footer .membro .redes-sociais a {
+	width: 40px;
+	height: 40px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.redes-sociais .linkedin {background-image: url(/assets/img/linkedin.png);}
+.redes-sociais .instagram {background-image: url(/assets/img/instagram.png);}
+.redes-sociais .github {background-image: url(/assets/img/github.png);}
+.redes-sociais .twitter {background-image: url(/assets/img/twitter.png);}

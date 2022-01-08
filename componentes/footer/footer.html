@@ -3,78 +3,7 @@
 <footer class="footer">
 	<!-- Colocar aqui o que deve ter no rodapé do projeto -->
 	<h1> Somos alunos do Programa Trilhas - Inova Maranhão! Conheça um pouco mais sobre nós!</h1>
-	<div class="membros">
-		<!--
-		<div class="membro">
-			<div>
-				<img src="assets/img/minhatura/eduardodj.png" alt="">
-				<div class="redes-sociais">
-					<a>L</a>
-					<a>G</a>
-					<a>I</a>
-				</div>
-			</div>
-			<p class="nome">Eduardo S. Santos</p>
-			<p class="formacao">Graduado em Engenharia Mecânica - Estagiário no Inova Maranhão</p>
-			<p class="trilha">Trilha de Design</p>
-		</div>
-		<div class="membro">
-			<img src="assets/img/minhatura/eduardodj.png" alt="">
-			<p class="nome">Eduardo S. Santos</p>
-			<p class="formacao">Graduado em Engenharia Mecânica - Estagiário no Inova Maranhão</p>
-			<p class="trilha">Trilha de Design</p>
-		</div>
-		<div class="membro">
-			<img src="assets/img/minhatura/eduardodj.png" alt="">
-			<p class="nome">Eduardo S. Santos</p>
-			<p class="formacao">Graduado em Engenharia Mecânica - Estagiário no Inova Maranhão</p>
-			<p class="trilha">Trilha de Design</p>
-		</div>
-		<div class="membro">
-			<img src="assets/img/minhatura/eduardodj.png" alt="">
-			<p class="nome">Eduardo S. Santos</p>
-			<p class="formacao">Graduado em Engenharia Mecânica - Estagiário no Inova Maranhão</p>
-			<p class="trilha">Trilha de Design</p>
-		</div>
-		<div class="membro">
-			<img src="assets/img/minhatura/eduardodj.png" alt="">
-			<p class="nome">Eduardo S. Santos</p>
-			<p class="formacao">Graduado em Engenharia Mecânica - Estagiário no Inova Maranhão</p>
-			<p class="trilha">Trilha de Design</p>
-		</div>
-
-		<div class="membro">
-			<img src="assets/img/minhatura/eduardodj.png" alt="">
-			<p class="nome">Eduardo S. Santos</p>
-			<p class="formacao">Graduado em Engenharia Mecânica - Estagiário no Inova Maranhão</p>
-			<p class="trilha">Trilha de Design</p>
-		</div>
-		<div class="membro">
-			<img src="assets/img/minhatura/eduardodj.png" alt="">
-			<p class="nome">Eduardo S. Santos</p>
-			<p class="formacao">Graduado em Engenharia Mecânica - Estagiário no Inova Maranhão</p>
-			<p class="trilha">Trilha de Design</p>
-		</div>
-		<div class="membro">
-			<img src="assets/img/minhatura/eduardodj.png" alt="">
-			<p class="nome">Eduardo S. Santos</p>
-			<p class="formacao">Graduado em Engenharia Mecânica - Estagiário no Inova Maranhão</p>
-			<p class="trilha">Trilha de Design</p>
-		</div>
-		<div class="membro">
-			<img src="assets/img/minhatura/eduardodj.png" alt="">
-			<p class="nome">Eduardo S. Santos</p>
-			<p class="formacao">Graduado em Engenharia Mecânica - Estagiário no Inova Maranhão</p>
-			<p class="trilha">Trilha de Design</p>
-		</div>
-		<div class="membro">
-			<img src="assets/img/minhatura/eduardodj.png" alt="">
-			<p class="nome">Eduardo S. Santos</p>
-			<p class="formacao">Graduado em Engenharia Mecânica - Estagiário no Inova Maranhão</p>
-			<p class="trilha">Trilha de Design</p>
-		</div>
-		-->
-	</div>
+	<div class="membros"> </div>
 	<div class="rodape">
 
 		<div class="info-conteiner">
@@ -92,9 +21,9 @@
 
 	<script type="text/javascript">
 
-		function addRede(redesSociais,name,src){
+		function addRede(redesSociais,name,href){
 			const A = document.createElement('a');
-			A.src = src;
+			A.setAttribute("href",href)
 			A.classList.add(name);
 			redesSociais.appendChild(A);
 		}
@@ -113,13 +42,13 @@
 
 			//const img    = document.createElement('img');
 
-			img.src = "assets/img/minhatura/"+Foto
-			img.alt = Nome_completo
+			img.setAttribute("src", "assets/img/minhatura/"+Foto)
+			img.setAttribute("alt", Nome_completo)
 
 			// add rede social
-			const {LinkedIn, instagram, github, twitter} = Redes_sociais
-			if (!!LinkedIn	&& LinkedIn !=="")		addRede(redesSociais,"LinkedIn",LinkedIn);
-			if (!!instagram	&& instagram !=="")	addRede(redesSociais,"instagram",instagram);
+			const {linkedin, instagram, github, twitter} = Redes_sociais
+			if (!!linkedin	&& linkedin !=="")		addRede(redesSociais,"linkedin",linkedin);
+			if (!!instagram	&& instagram !=="")		addRede(redesSociais,"instagram",instagram);
 			if (!!github	&& github !=="")		addRede(redesSociais,"github",github);
 			if (!!twitter	&& twitter !=="")		addRede(redesSociais,"twitter",twitter);
 
