@@ -2,5 +2,154 @@
 
 <footer class="footer">
 	<!-- Colocar aqui o que deve ter no rodapé do projeto -->
-	Olá, eu sou um footer
+	<h1> Somos alunos do Programa Trilhas - Inova Maranhão! Conheça um pouco mais sobre nós!</h1>
+	<div class="membros">
+		<!--
+		<div class="membro">
+			<div>
+				<img src="assets/img/minhatura/eduardodj.png" alt="">
+				<div class="redes-sociais">
+					<a>L</a>
+					<a>G</a>
+					<a>I</a>
+				</div>
+			</div>
+			<p class="nome">Eduardo S. Santos</p>
+			<p class="formacao">Graduado em Engenharia Mecânica - Estagiário no Inova Maranhão</p>
+			<p class="trilha">Trilha de Design</p>
+		</div>
+		<div class="membro">
+			<img src="assets/img/minhatura/eduardodj.png" alt="">
+			<p class="nome">Eduardo S. Santos</p>
+			<p class="formacao">Graduado em Engenharia Mecânica - Estagiário no Inova Maranhão</p>
+			<p class="trilha">Trilha de Design</p>
+		</div>
+		<div class="membro">
+			<img src="assets/img/minhatura/eduardodj.png" alt="">
+			<p class="nome">Eduardo S. Santos</p>
+			<p class="formacao">Graduado em Engenharia Mecânica - Estagiário no Inova Maranhão</p>
+			<p class="trilha">Trilha de Design</p>
+		</div>
+		<div class="membro">
+			<img src="assets/img/minhatura/eduardodj.png" alt="">
+			<p class="nome">Eduardo S. Santos</p>
+			<p class="formacao">Graduado em Engenharia Mecânica - Estagiário no Inova Maranhão</p>
+			<p class="trilha">Trilha de Design</p>
+		</div>
+		<div class="membro">
+			<img src="assets/img/minhatura/eduardodj.png" alt="">
+			<p class="nome">Eduardo S. Santos</p>
+			<p class="formacao">Graduado em Engenharia Mecânica - Estagiário no Inova Maranhão</p>
+			<p class="trilha">Trilha de Design</p>
+		</div>
+
+		<div class="membro">
+			<img src="assets/img/minhatura/eduardodj.png" alt="">
+			<p class="nome">Eduardo S. Santos</p>
+			<p class="formacao">Graduado em Engenharia Mecânica - Estagiário no Inova Maranhão</p>
+			<p class="trilha">Trilha de Design</p>
+		</div>
+		<div class="membro">
+			<img src="assets/img/minhatura/eduardodj.png" alt="">
+			<p class="nome">Eduardo S. Santos</p>
+			<p class="formacao">Graduado em Engenharia Mecânica - Estagiário no Inova Maranhão</p>
+			<p class="trilha">Trilha de Design</p>
+		</div>
+		<div class="membro">
+			<img src="assets/img/minhatura/eduardodj.png" alt="">
+			<p class="nome">Eduardo S. Santos</p>
+			<p class="formacao">Graduado em Engenharia Mecânica - Estagiário no Inova Maranhão</p>
+			<p class="trilha">Trilha de Design</p>
+		</div>
+		<div class="membro">
+			<img src="assets/img/minhatura/eduardodj.png" alt="">
+			<p class="nome">Eduardo S. Santos</p>
+			<p class="formacao">Graduado em Engenharia Mecânica - Estagiário no Inova Maranhão</p>
+			<p class="trilha">Trilha de Design</p>
+		</div>
+		<div class="membro">
+			<img src="assets/img/minhatura/eduardodj.png" alt="">
+			<p class="nome">Eduardo S. Santos</p>
+			<p class="formacao">Graduado em Engenharia Mecânica - Estagiário no Inova Maranhão</p>
+			<p class="trilha">Trilha de Design</p>
+		</div>
+		-->
+	</div>
+	<div class="rodape">
+
+		<div class="info-conteiner">
+			<p class="info">Clique aqui e conheça nossa equipe de desenvolvimento!</p>
+			<div class="balao">Sobre nós!</div>
+			<img class="seta" src="assets/img/seta.svg" alt=""/>
+		</div>
+		<div class="notas-conteiner">
+			<p>Secretaria da Ciência, Tecnologia e Inovação do Estado do Maranhão</p>
+			<p>Programa Trilhas-Inova Maranhão em Parceria com a FAPEMA</p>
+			<p>Trlhas de Ciência de Dados, Design e Experiência e Programação</p>
+		</div>
+		<img class="logo" src="assets/img/logo.png" alt="logo"/>
+	<div>
+
+	<script type="text/javascript">
+
+		function addRede(redesSociais,name,src){
+			const A = document.createElement('a');
+			A.src = src;
+			A.classList.add(name);
+			redesSociais.appendChild(A);
+		}
+		function criarMembro({
+			Nome, Sobrenome, Nome_completo, Formacao, Trilha, Foto, Redes_sociais
+		}){
+
+			const membro = document.createElement('div');
+			const div    = document.createElement('div');
+			const img    = document.createElement('img');
+			const redesSociais    = document.createElement('div');
+
+			const nome		= document.createElement('p');
+			const formacao	= document.createElement('p');
+			const trilha	= document.createElement('p');
+
+			//const img    = document.createElement('img');
+
+			img.src = "assets/img/minhatura/"+Foto
+			img.alt = Nome_completo
+
+			// add rede social
+			const {LinkedIn, instagram, github, twitter} = Redes_sociais
+			if (!!LinkedIn	&& LinkedIn !=="")		addRede(redesSociais,"LinkedIn",LinkedIn);
+			if (!!instagram	&& instagram !=="")	addRede(redesSociais,"instagram",instagram);
+			if (!!github	&& github !=="")		addRede(redesSociais,"github",github);
+			if (!!twitter	&& twitter !=="")		addRede(redesSociais,"twitter",twitter);
+
+			nome.innerHTML = Nome
+			formacao.innerHTML = Formacao
+			trilha.innerHTML = Trilha
+
+			membro.classList.add("membro")
+			redesSociais.classList.add("redes-sociais")
+
+			nome.classList.add("nome")
+			formacao.classList.add("formacao")
+			trilha.classList.add("trilha")
+
+			div.appendChild(img);
+			div.appendChild(redesSociais);
+
+			membro.appendChild(div)
+			membro.appendChild(nome)
+			membro.appendChild(formacao)
+			membro.appendChild(trilha)
+
+			return membro
+		}
+
+		membrosHTML = document.getElementsByClassName("membros")[0]
+		$.getJSON('assets/membros.json', membros => {
+			membros.forEach(membro => {
+				membrosHTML.appendChild(criarMembro(membro))
+			});
+		})
+	</script>
 </footer>
