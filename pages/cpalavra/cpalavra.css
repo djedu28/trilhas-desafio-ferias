@@ -26,6 +26,7 @@
 	width: 647px;
 	height: 729px;
 	background-color: rgba(210, 190, 230, 0.83);
+	align-items: baseline;
 }
 
 .imagem__financeiro--jogo{
@@ -106,4 +107,24 @@
 	line-height: 42px;
 	font-weight: 400px;
 	margin-top: 10px;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+td{
+	border: 1px solid black;
+	width: 45px;
+	height: 41px;
+}
+
+td:empty{
+	background-color: rgba(210, 190, 230, 0.83);
+	border: none;
+}
+
+.jogo__letra{
+	background-color: white;
+	text-align: center;
 }
