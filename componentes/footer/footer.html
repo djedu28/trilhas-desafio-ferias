@@ -8,7 +8,8 @@
 
 		<div class="info-conteiner">
 			<p class="info">Clique aqui e conheça nossa equipe de desenvolvimento!</p>
-			<div class="balao">Sobre nós!</div>
+			<input id="sobre" type="checkbox" checked/>
+			<label for="sobre" class="balao" onclick="Membros()">Sobre nós!</label>
 			<img class="seta" src="assets/img/seta.svg" alt=""/>
 		</div>
 		<div class="notas-conteiner">
@@ -16,7 +17,6 @@
 			<p>Programa Trilhas-Inova Maranhão em Parceria com a FAPEMA</p>
 			<p>Trlhas de Ciência de Dados, Design e Experiência e Programação</p>
 		</div>
-		<img class="logo" src="assets/img/logo.png" alt="logo"/>
 	<div>
 
 	<script type="text/javascript">
@@ -25,6 +25,7 @@
 			const A = document.createElement('a');
 			A.setAttribute("href",href)
 			A.setAttribute("target","_blank")
+			A.setAttribute("title",name)
 			A.classList.add(name);
 			redesSociais.appendChild(A);
 		}
@@ -44,7 +45,8 @@
 			//const img    = document.createElement('img');
 
 			img.setAttribute("src", "assets/img/minhatura/"+Foto)
-			img.setAttribute("alt", Nome_completo)
+			img.setAttribute("alt", `Foto de perfil do(a) ${Nome_completo}`)
+			img.setAttribute("title", Nome_completo)
 
 			// add rede social
 			const {linkedin, instagram, github, twitter} = Redes_sociais
@@ -53,9 +55,9 @@
 			if (!!github	&& github !=="")		addRede(redesSociais,"github",github);
 			if (!!twitter	&& twitter !=="")		addRede(redesSociais,"twitter",twitter);
 
-			nome.innerHTML = Nome
+			nome.innerHTML = `${Nome} ${Sobrenome}`
 			formacao.innerHTML = Formacao
-			trilha.innerHTML = Trilha
+			trilha.innerHTML = `Trilha de: ${Trilha}`
 
 			membro.classList.add("membro")
 			redesSociais.classList.add("redes-sociais")
@@ -75,11 +77,21 @@
 			return membro
 		}
 
-		membrosHTML = document.getElementsByClassName("membros")[0]
+		const membrosHTML = document.getElementsByClassName("membros")[0]
 		$.getJSON('assets/membros.json', membros => {
 			membros.forEach(membro => {
 				membrosHTML.appendChild(criarMembro(membro))
 			});
 		})
+
+		const balao = document.getElementsByClassName("balao")[0]
+
+		function Membros(){
+			console.log("Membros",{membrosHTML},membrosHTML.classList)
+			membrosHTML.hide = !membrosHTML.hide;
+			membrosHTML.hide
+				? membrosHTML.classList.add("desativar")
+				: membrosHTML.classList.remove("desativar")
+		}
 	</script>
 </footer>
