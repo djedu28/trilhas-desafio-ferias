@@ -11,6 +11,7 @@ function criarPergunta({name,titulo,opcs}){
     opcsHTML.classList.add("pergunta-conteiner")
     // adicionando titulo da pergunta
     p.innerHTML = titulo;
+    p.setAttribute("id",name);
     // cria os elementos das opções
 
     opcs.forEach( (op)=>{
@@ -57,4 +58,86 @@ function addPergunta(pergunta){
     perguntasHTML = buscarPerguntasHTML();
 
     perguntasHTML.appendChild(pergunta);
+}
+
+function Perguntas(){
+    const ele = buscarPerguntasHTML()
+    if(ele.addEventListener){
+        ele.addEventListener("submit", Enviar, false);  //Modern browsers
+    }else if(ele.attachEvent){
+        ele.attachEvent('onsubmit', Enviar);            //Old IE
+    }
+
+
+    minhasPerguntas()
+        .forEach(({ name, titulo, opcs }, i) => {
+            titulo = `${i+1}. ${titulo}`
+            addPergunta(criarPergunta({ name, titulo, opcs }))
+        });
+}
+
+
+function Enviar(e){
+    e.preventDefault()
+
+    const formData = new FormData(e.target);
+    const formProps = Object.fromEntries(formData);
+    const perguntas =minhasPerguntas();
+
+    const acertos = perguntas.map(({ name, resp}) => {
+        const acertou = formProps[name]===resp
+        p = document.getElementById(name)
+        if (acertou){
+            p.classList.add("pergunta-correta")
+        } else {
+            p.classList.add("pergunta-errada")
+        }
+        return {name:acertou}
+    });
+    soma = 1;
+    acertos.forEach(x=>x.name?soma++:0)
+    alert(`Você acertou ${soma}`)
+    return acertos
+}
+
+
+function minhasPerguntas(){
+    opcs = [
+        {value:"certo", texto:"Certo"},
+        {value:"errado",texto:"Errado"}
+    ]
+    let i = 1;
+    const perguntas = [
+        {
+            name:`pergunta${i++}`,
+            titulo:"Necessário que uma pessoa seja especialista para estudar e aprender sobre educação financeira. Pessoas comuns e jovens não necessitam aprender sobre o assunto. A educação financeira não exerce influência sobre como uma pessoa controla seus gastos, realiza seus investimentos e administra seu capital e dívidas.",
+            resp:"errado",
+            opcs
+        },
+        {
+            name:`pergunta${i++}`,
+            titulo:"Na inflação os efeitos de aumento dos preços de bens e serviços resultam em aumento do poder de compra.",
+            resp:"errado",
+            opcs
+        },
+        {
+            name:`pergunta${i++}`,
+            titulo:"As fintechs são startups inovadoras com produtos e serviços digitais voltados para soluções do mercado financeiro.",
+            resp:"certo",
+            opcs
+        },
+        {
+            name:`pergunta${i++}`,
+            titulo:"De acordo com Peic/CNC, o índice de endividamento das famílias brasileiras aumentou no período dos anos de 2018 a 2020.",
+            resp:"certo",
+            opcs
+        },
+        {
+            name:`pergunta${i++}`,
+            titulo:"Conhecimento e planejamento são ótimos aliados em termos de gestão financeira pessoal.",
+            resp:"certo",
+            opcs
+        }
+    ]
+    return perguntas
 }
