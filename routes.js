@@ -26,11 +26,11 @@ microroute("/Palavras_Cruzadas",()=>{
 })
 
 microroute("/Duvidas",()=>{
-	laodPage("cpalavra",{js:false})
+	laodPage("pagina7",{js:false})
 })
 
 microroute("/",()=>{
-	laodPage("pagina4",{js:false})
+	laodPage("pagina1",{js:false})
 })
 
 /**************************/
