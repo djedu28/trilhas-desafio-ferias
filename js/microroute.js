@@ -1,12 +1,12 @@
 /*
 MicroRoute
-é um Client Router em Javascript 
+é um Client Router em Javascript
 inspirado em pagesJs e micror
 
 */
 
 ((root, factory) => {
-	
+
 	if (typeof exports === 'object' && typeof module === 'object') {
 		module.exports = factory();
 	} else if (typeof define === 'function' && define.amd) {
@@ -16,7 +16,7 @@ inspirado em pagesJs e micror
 	} else {
 		root.microroute = factory();
 	}
-	
+
 })(this, () => {
 	'use strict';
 
@@ -33,10 +33,10 @@ inspirado em pagesJs e micror
 			microroute.callbacks.push(middleware(route, arguments[i]));
 		}
 	}
-	
-	
+
+
 	microroute.callbacks = [];
-	
+
 	microroute.go = function(path, state, saveState) {
 		var ctx = new Context(path, state);
 		ctx[saveState ? 'saveState' : 'pushState']();
@@ -50,7 +50,7 @@ inspirado em pagesJs e micror
 		}
 		callNextCallback();
 	};
-	
+
 	microroute.run = function(opts) {
 		_base = opts?.base ? opts.base : '';
 		_hash = opts?.hash ? '#!' : false;
@@ -100,13 +100,13 @@ inspirado em pagesJs e micror
 			next();
 		};
 	}
-	
+
 	function fillParams(match, keys, params) {
 		keys.forEach(function(key, idx) {
 			params[key.name] = match[idx + 1];
 		});
 	}
-	
+
 	function regexp(path, keys) {
 		var regex = path.replace(/\/(:?)([^\/?]+)(\??)(?=\/|$)/g,
 			function(match, isVariable, segment, isOptional) {
@@ -118,7 +118,7 @@ inspirado em pagesJs e micror
 		regex = regex === '*' ? '(.*)' : (regex === '/' ? '' : regex);
 		return new RegExp('^' + regex + '(?:\\/(?=$))?$', 'i');
 	}
-	
+
 	function onClickHandler(e) {
 		var element = e.target;
 		while ( !!element && element.nodeName !== 'A') {
@@ -127,11 +127,19 @@ inspirado em pagesJs e micror
 		if (!element || element.nodeName !== 'A') {
 			return;
 		}
+		if (element.host !== window.location.host) {
+			// console.log("onClickHandler",{element})
+			return;
+		};
+		//
+		// const ignorar = [".js",".json",".png",".jpg",".svg",".css"]
+		// if (ignorar.some(test=>element.host.split("/").reverse()[0]).includes(test))) return;
+
 		var path = element.pathname + element.search + (element.hash || '');
 		e.preventDefault();
 		microroute.go(path);
 	}
-	
+
 	function onPopState(e) {
 		if (e.state) {
 			var path = e.state.path;
@@ -140,6 +148,6 @@ inspirado em pagesJs e micror
 			microroute.go(location.pathname + location.hash);
 		}
 	}
-	
+
 	return microroute;
 });

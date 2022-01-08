@@ -24,6 +24,7 @@
 		function addRede(redesSociais,name,href){
 			const A = document.createElement('a');
 			A.setAttribute("href",href)
+			A.setAttribute("target","_blank")
 			A.classList.add(name);
 			redesSociais.appendChild(A);
 		}
