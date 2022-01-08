@@ -39,7 +39,7 @@
 }
 .footer .info-conteiner {
 	position: relative;
-	width: 435px;
+	/* width: 435px; */
 	height: 245px;
 	/* margin-left: 185px; */
 	margin-top: 19px;
@@ -254,3 +254,4 @@
 .info-conteiner input[type="checkbox"]:checked + .balao {
 	background: var(--amarelo-01-color) !important;
 }
+
