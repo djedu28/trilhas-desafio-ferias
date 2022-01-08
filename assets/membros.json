@@ -149,6 +149,21 @@
 			"github":     "https://github.com/Rudz1",
 			"twitter":    ""
 		}
+	},
+	{
+		"Nome" : 	  		"Omar",
+		"Sobrenome" : 		"Belchior Gaido",
+		"Nome_completo" : 	"André Luis Pereira",
+		"Formacao" : 		"Graduado em análise e desenvolvimento de sistemas.",
+		"Trilha" : 			"Programação",
+		"Foto":             "omar.png",
+		"Redes_sociais" : {
+			"linkedin":   "",
+			"instagram" : "",
+			"github":     "",
+			"twitter":    ""
+		}
 	}
+
 
 ]
