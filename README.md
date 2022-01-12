@@ -1,5 +1,5 @@
 # Conheça a GFA - Guia Financeiro para Adolescentes
-## 💻 Site desenvolvido durante o 2º Desafio Integrado | Programa Trilhas
+## 💻 Site desenvolvido durante o 2.º Desafio Integrado | Programa Trilhas
 
 💭 <em>“Pela educação financeira de todos!”</em>
 
@@ -13,4 +13,30 @@ no mundo do Mercado Financeiro e Investimentos.
 forma dinâmica, interativa, didática e atrativa para os adolescentes que estão
 estudando o Ensino Médio.
 
-- ✨Nosso objetivo é instruir a nova geração sobre o mundo fincanceiro e de investimentos.
+- ✨Nosso objetivo é instruir a nova geração sobre o mundo financeiro e de investimentos.
+
+
+# Sobre o projeto
+
+Este projeto foi desenvolvido usando HTML, CSS e JavaScript não usando nenhum framework (React, Nex, NodeJs).
+Por não usar framework, e necessitar de gerenciar rotas, o @DjEdu28 aplicou o uso de micro rotas que roda no lado do cliente.
+
+Na tentativa de otimizar o carregamento do site,  utilizamos parte da filosofia do React e separamos pedaços da página em componentes (header/footer), gerenciados por puro javaScript para evitar recarregá-los ao navegar na página.
+
+Então para modificar o cabeçalho, _é só acessar a pasta [/componentes/header](/componentes/header)_
+
+o mesmo para o rodapé, _é só acessar a pasta [/componentes/footer](/componentes/footer)_
+
+
+as paginas contidas no site foram programadas a partir da tag <main>, dentro do <body>
+e um script JS se encarrega de atualizar o <main> dependendo da rota acessada
+as paginas (HTML, CSS e JS) : _estão localizadas em [/pages/](/pages/)_
+
+
+
+
+
+
+
+
+
