@@ -1,21 +1,135 @@
+.page1 {
+    width: 90vw;
+	/* font-family: 'Rokkitt', serif; */
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 40px;
 
-.page1-bem-vindo{
-    display: flex;
-    flex-direction: column;
+	color: #000000;
+	max-width: 1600px;
 }
-.page1-bem-vindo .titulo1{
-    font-size: 25px;
-    width: 55%;
-    background: #F1F525;
-    font-family: Comic Sans MS, Comic Sans, cursive;
-    height: 9vh;
-    text-align: center;
-}
-.page1-bem-vindo .texto1{
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
 
-  
-    width: 50%;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgba(229, 229, 229, 0.58);
+.page1 .bem-vindo{
+	display: flex;
+    position: relative;
+	margin-top: 50px;
+    width: 100%;
+	height: 400px;
+}
+
+.page1 .titulo1{
+    font-family: Schoolbell;
+	display: flex;
+	position: absolute;
+	align-items: center;
+	justify-content: center;
+	width: 808px;
+	height: 54px;
+	left: 0px;
+	top: 58px;
+
+	/* Amarelo 01 */
+	background: rgba(241, 245, 37, 0.64);
+
+	font-weight: 600;
+}
+
+.page1 .texto1{
+    /* font-family: Rokkitt; */
+	position: absolute;
+	width: 671px;
+	height: 152px;
+	left: 130px;
+	top: 150px;
+
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgba(229, 229, 229, 0.58);
+	padding: 10;
+	text-align: center;
+
+}
+
+.page1 .img1{
+    position: absolute;
+    left: 50vw;
+
+}
+
+.page1 .dicas-economia{
+	display: flex;
+    position: relative;
+    width: 100%;
+	height: 400px;
+}
+
+.page1 .titulo2{
+    font-family: Schoolbell;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 760px;
+	height: 54px;
+	left: 42px;
+
+	/* Amarelo 01 */
+	background: rgba(241, 245, 37, 0.64);
+	font-weight: 600;;
+
+}
+
+.page1 .texto2{
+    /* font-family: Rokkitt; */
+	position: absolute;
+	width: 671px;
+	height: 152px;
+	left: 130px;
+	top: 95px;
+
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgba(229, 229, 229, 0.58);
+	padding: 10;
+	text-align: center;
+}
+
+.page1 .bolha-voce-sabia{
+	position: absolute;
+	width: 360px;
+	height: 354px;
+	left: 51vw;
+	border-radius: 50%;
+
+	/* Lilás 01 */
+	background: rgba(210, 190, 230, 0.83);
+}
+
+.page1 .bolha-voce-sabia .atencao{
+	font-weight: 600;
+	font-family: Schoolbell;
+	display: flex;
+	justify-content: center;
+}
+
+.page1 .bolha-voce-sabia .texto3{
+	text-align: center;
+}
+
+.page1 .img1-logo{
+	position: absolute;
+    left: 20vw;
+}
+
+
+
+
+
+.page1 .bloco-borda {
+	position: absolute;
+	left: 0;
+	top: 218px;
+	width: 50px;
+	height: 100%;
+
+	background: #605299;
+
+	/* height: calc(100% - 218px); */
 }
