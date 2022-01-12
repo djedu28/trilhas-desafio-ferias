@@ -30,7 +30,7 @@ Então para modificar o cabeçalho, _é só acessar a pasta [/componentes/header
 O mesmo para o rodapé, _é só acessar a pasta [/componentes/footer](/componentes/footer)_
 
 
-As paginas contidas no site foram programadas a partir da tag <main>, dentro do <body>
+As paginas contidas no site foram programadas a partir da tag \<main\>, dentro do \<body\>
 e um script JS se encarrega de atualizar o <main> dependendo da rota acessada
 as paginas (HTML, CSS e JS) : _estão localizadas em [/pages/](/pages/)_
 
