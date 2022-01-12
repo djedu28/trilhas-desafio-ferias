@@ -20,15 +20,17 @@ estudando o Ensino Médio.
 
 Este projeto foi desenvolvido usando HTML, CSS e JavaScript não usando nenhum framework (React, Nex, NodeJs).
 Por não usar framework, e necessitar de gerenciar rotas, o @DjEdu28 aplicou o uso de micro rotas que roda no lado do cliente.
+_composto pelos scrips [/js/microroute.js](/js/microroute.js)_
+_composto pelos scrips [/js/djscript.js](/js/djscript.js)_
 
-Na tentativa de otimizar o carregamento do site,  utilizamos parte da filosofia do React e separamos pedaços da página em componentes (header/footer), gerenciados por puro javaScript para evitar recarregá-los ao navegar na página.
+Na tentativa de otimizar o carregamento do site e evitar código duplicado,  utilizamos parte da filosofia do React e separamos pedaços da página em componentes (header/footer), gerenciados por puro javaScript para evitar recarregá-los ao navegar na página.
 
 Então para modificar o cabeçalho, _é só acessar a pasta [/componentes/header](/componentes/header)_
 
-o mesmo para o rodapé, _é só acessar a pasta [/componentes/footer](/componentes/footer)_
+O mesmo para o rodapé, _é só acessar a pasta [/componentes/footer](/componentes/footer)_
 
 
-as paginas contidas no site foram programadas a partir da tag <main>, dentro do <body>
+As paginas contidas no site foram programadas a partir da tag <main>, dentro do <body>
 e um script JS se encarrega de atualizar o <main> dependendo da rota acessada
 as paginas (HTML, CSS e JS) : _estão localizadas em [/pages/](/pages/)_
 
