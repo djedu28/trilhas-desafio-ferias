@@ -20,8 +20,8 @@ estudando o Ensino Médio.
 
 Este projeto foi desenvolvido usando HTML, CSS e JavaScript não usando nenhum framework (React, Nex, NodeJs).
 Por não usar framework, e necessitar de gerenciar rotas, o @DjEdu28 aplicou o uso de micro rotas que roda no lado do cliente.
-_composto pelos scrips [/js/microroute.js](/js/microroute.js)_
-_composto pelos scrips [/js/djscript.js](/js/djscript.js)_
+
+_Composto pelos scrips [/js/microroute.js](/js/microroute.js)_ e _[/js/djscript.js](/js/djscript.js)_
 
 Na tentativa de otimizar o carregamento do site e evitar código duplicado,  utilizamos parte da filosofia do React e separamos pedaços da página em componentes (header/footer), gerenciados por puro javaScript para evitar recarregá-los ao navegar na página.
 
