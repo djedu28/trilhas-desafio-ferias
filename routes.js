@@ -5,6 +5,8 @@ $(function () {
 	laodComp("footer",{js:false})
 })
 
+
+
 microroute("#Entrar",()=>{
 	popUp("Entrar");
 })
@@ -20,7 +22,9 @@ microroute("/Fotos_e_Fatos",()=>{
 microroute("/Quiz",()=>{
 	laodPage("quiz")
 })
-
+microroute("/teste_game",()=>{
+	laodPage("game",{js:false})
+})
 microroute("/Palavras_Cruzadas",()=>{
 	laodPage("cpalavra",{js:false})
 })

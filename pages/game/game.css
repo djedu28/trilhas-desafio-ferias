@@ -1,0 +1,77 @@
+.game-cp {
+	background: rgba(210, 190, 230, 0.83);
+	min-width: 647.52px;
+	min-height: 729.4px;
+	
+	display: flex;
+	justify-content: center;
+	/* align-items: center; */
+	
+	--transparent: rgba(0, 0, 0, 0);
+	--sombreado : rgba(0, 0, 0, 0.1);
+}
+
+.mapa {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.mapa section {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.mapa input {
+	width: 100%;
+	height: 100%;
+}
+.mapa .box, .mapa input {
+	font-family: Rokkitt;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 36px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #000000;
+}
+.mapa .box {
+	/*LIMPO*/
+	width: 45px;
+	height: 45px;
+	
+	flex-grow: 0;
+	margin: 0px 0px;
+	
+	background: var(--transparent);
+	border: 1px solid var(--sombreado);
+	box-sizing: border-box;
+	
+	justify-content: center;
+
+}
+
+.mapa .box.A{
+	/*COM INPUT*/
+	background: #E5E5E5;
+	border-color: #000000;
+	
+}
+.mapa .box.BK,
+.mapa .box.A-BK{
+	/*COM INPUT TRAVADO*/
+	background: #E5E5E5;
+	border: 1px solid #000000;
+}
+.mapa .box.N{
+	/*COM INDICE*/
+	background: var(--transparent);
+
+	box-sizing: none;
+
+}
