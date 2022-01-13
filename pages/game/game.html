@@ -143,6 +143,7 @@ mapa.forEach((linha,i) => {
 			isNumber(box) ? "N"  // numero de incide
 			: box===" " ? "L" 	 // caixa limpa
 			: box==="*" ? "BK"   // caixa bloqueada
+			//: "A"	             // caixa com input ativado
 			: "A-BK";			 // caixa bloqueada com texto
 			// modificar o acima para apenas A e terá o input ativados
 		const boxHTML = criarBox(tipo,{value:box})
@@ -156,10 +157,12 @@ mapa.forEach((linha,i) => {
 
 console.log("mapa",{mapa})
 
+console.log(`
+modificar linha 147 de "A-BK" para apenas "A" e terá o input ativados
 
 agora basta pecorrer todos os box comparando o input.value com mapa
 
 cada box possui um id referente a linha e coluna
 exemplo id = "L1C2" // linha 1 e coluna 2
-
+`);
 </script>
