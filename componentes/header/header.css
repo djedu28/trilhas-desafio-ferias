@@ -169,7 +169,7 @@
 	}
 	.header .nav2{
 		bottom: 0;
-		width: 100vw;
+		width: 100%;
 	}
 	.header nav{
 		position: absolute;
