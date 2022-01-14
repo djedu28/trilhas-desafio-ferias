@@ -27,7 +27,7 @@
 .quiz .info-topo {
 	position: relative;
 	margin-top: 50px;
-	border-top: solid 3px red;
+	/*border-top: solid 3px red;*/
 	width: 100%;
 	height: 354px;
 }
