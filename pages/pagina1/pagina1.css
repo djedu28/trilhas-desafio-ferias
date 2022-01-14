@@ -20,6 +20,7 @@
 
 .page1 .titulo1{
     font-family: Schoolbell;
+	font-size: 30px;
 	display: flex;
 	position: absolute;
 	align-items: center;
@@ -36,7 +37,8 @@
 }
 
 .page1 .texto1{
-    /* font-family: Rokkitt; */
+    font-family: Rokkitt;
+	font-size: 20px;
 	position: absolute;
 	width: 671px;
 	height: 152px;
@@ -64,6 +66,7 @@
 
 .page1 .titulo2{
     font-family: Schoolbell;
+	font-size: 30px;
 	position: absolute;
 	display: flex;
 	align-items: center;
@@ -79,7 +82,8 @@
 }
 
 .page1 .texto2{
-    /* font-family: Rokkitt; */
+    font-family: Rokkitt;
+	font-size: 20px;
 	position: absolute;
 	width: 671px;
 	height: 152px;
@@ -104,6 +108,7 @@
 
 .page1 .bolha-voce-sabia .atencao{
 	margin-top: 15px;
+	font-size: 30px;
 	font-weight: 600;
 	font-family: Schoolbell;
 	display: flex;
@@ -111,8 +116,10 @@
 }
 
 .page1 .bolha-voce-sabia .texto3{
+	font-family: Rokkitt;
+    font-size: 20px;
 	text-align: center;
-	padding: 0 28px;
+	padding: 0 35px;
 }
 
 .page1 .img1-logo{
@@ -136,6 +143,8 @@
 }
 
 .page1 .texto4{
+	font-family: Rokkitt;
+    font-size: 20px;
 	position: absolute;
 	width: 671px;
 	height: 152px;
@@ -156,6 +165,7 @@
 
 .page1 .titulo3{
     font-family: Schoolbell;
+	font-size: 30px;
 	position: absolute;
 	display: flex;
 	align-items: center;
@@ -188,11 +198,11 @@
 }
 
 .page1 .texto5{
+	font-family: Rokkitt;
+    font-size: 20px;
+	padding: 30px 40px;
 	text-align: center;
-	/* margin-top: 50px; */
 	width: 250px;
-	margin-left: 55px;
-	margin-top: 20px;
 }
 
 .page1 .conceitos-economia{
@@ -204,6 +214,7 @@
 
 .page1 .titulo4{
     font-family: Schoolbell;
+	font-size: 30px;
 	position: absolute;
 	display: flex;
 	align-items: center;
@@ -225,6 +236,8 @@
 }
 
 .page1 .texto6{
+	font-family: Rokkitt;
+    font-size: 20px;
 	position: absolute;
 	width: 671px;
 	height: 152px;
@@ -238,6 +251,7 @@
 
 .page1 .olha{
 	position: absolute;
+	font-size: 30px;
 	font-weight: 600;	
 	font-family: Schoolbell;
 	width: 671px;
@@ -264,6 +278,7 @@
 
 .page1 .titulo5{
     font-family: Schoolbell;
+	font-size: 30px;
 	position: absolute;
 	display: flex;
 	align-items: center;
@@ -328,13 +343,17 @@
 
 .page1 .atencao1{
 	font-family: Schoolbell;
+	font-size: 30px;
 	font-weight: 600;
-	display: flex;
-	justify-content: center;
+	text-align: center;
+    padding-bottom: 15px;
 	margin-top: 80px;
 }
 
 .page1 .texto8{
+	font-size: 24px;
+    font-family: 'Rokkitt';
+	padding: 0 20px;
 	text-align: center;
 }
 
@@ -347,6 +366,8 @@
 
 .page1 .texto9{
 	position: absolute;
+	font-size: 20px;
+    font-family: 'Rokkitt';
 	width: 671px;
 	height: 152px;
 	left: 130px;
@@ -358,6 +379,8 @@
 }
 
 .page1 .acesso{
+	font-size: 20px;
+	font-family: "Roboto";
 	position: absolute;
 	display: flex;
 	align-items: center;
