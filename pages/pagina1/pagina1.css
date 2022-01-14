@@ -70,7 +70,7 @@
 	justify-content: center;
 	width: 760px;
 	height: 54px;
-	left: 42px;
+	left: 50px;
 
 	/* Amarelo 01 */
 	background: rgba(241, 245, 37, 0.64);
@@ -103,6 +103,7 @@
 }
 
 .page1 .bolha-voce-sabia .atencao{
+	margin-top: 35px;
 	font-weight: 600;
 	font-family: Schoolbell;
 	display: flex;
@@ -160,7 +161,7 @@
 	justify-content: center;
 	width: 760px;
 	height: 54px;
-	left: 42px;
+	left: 50px;
 
 	/* Amarelo 01 */
 	background: rgba(241, 245, 37, 0.64);
@@ -208,7 +209,7 @@
 	justify-content: center;
 	width: 760px;
 	height: 54px;
-	left: 42px;
+	left: 50px;
 	top: 50px;
 
 	/* Amarelo 01 */
@@ -268,7 +269,7 @@
 	justify-content: center;
 	width: 760px;
 	height: 54px;
-	left: 42px;
+	left: 50px;
 	top: 50px;
 
 	/* Amarelo 01 */
@@ -329,7 +330,7 @@
 	font-weight: 600;
 	display: flex;
 	justify-content: center;
-	margin-top: 55px;
+	margin-top: 80px;
 }
 
 .page1 .texto8{
@@ -361,7 +362,7 @@
 	align-items: center;
 	justify-content: center;
 	left: 52vw;
-	top: 7vw;
+	top: 6vw;
 	background: rgba(241, 245, 37, 0.64);
 
 	width: 230px;
@@ -382,9 +383,9 @@
 .page1 .bloco-borda {
 	position: absolute;
 	left: 0;
-	top: 400px;
+	top: 500px;
 	width: 50px;
-	height: 3200px;
+	height: 3500px;
 
 	background: #605299;
 
