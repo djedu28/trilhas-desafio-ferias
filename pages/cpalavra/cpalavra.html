@@ -110,8 +110,8 @@
 					isNumber(box) ? "N"  // numero de incide
 					: box===" " ? "L" 	 // caixa limpa
 					: box==="*" ? "BK"   // caixa bloqueada
-					//: "A"	             // caixa com input ativado
-					: "A-BK";			 // caixa bloqueada com texto
+					: "A"	             // caixa com input ativado
+					//: "A-BK";			 // caixa bloqueada com texto
 					// modificar o acima para apenas A e terá o input ativados
 				const boxHTML = criarBox(tipo,{value:box})
 				boxHTML.id = `L${i}_C${j}`
