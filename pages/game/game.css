@@ -49,13 +49,16 @@
 	margin: 0px 0px;
 	
 	background: var(--transparent);
-	border: 1px solid var(--sombreado);
+	/* border: 1px solid var(--sombreado); */
 	box-sizing: border-box;
 	
 	justify-content: center;
 
 }
-
+.mapa .box.L {
+	
+	border: none;
+}
 .mapa .box.A{
 	/*COM INPUT*/
 	background: #E5E5E5;
