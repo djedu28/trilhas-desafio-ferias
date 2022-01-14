@@ -51,7 +51,7 @@
 
 .page1 .img1{
     position: absolute;
-    left: 50vw;
+    left: 70%;
 
 }
 
@@ -103,7 +103,7 @@
 }
 
 .page1 .bolha-voce-sabia .atencao{
-	margin-top: 35px;
+	margin-top: 15px;
 	font-weight: 600;
 	font-family: Schoolbell;
 	display: flex;
@@ -139,7 +139,7 @@
 	position: absolute;
 	width: 671px;
 	height: 152px;
-	left: 45vw;
+	left: 55%;
 	top: 95px;
 
 	background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgba(229, 229, 229, 0.58);
@@ -171,7 +171,7 @@
 
 .page1 .img2-logo{
 	position: relative;
-	left: 50vw;
+	left: 65%;
 	top: 120px;
 }
 
@@ -228,7 +228,7 @@
 	position: absolute;
 	width: 671px;
 	height: 152px;
-	left: 45vw;
+	left: 55%;
 	top: 150px;
 
 	background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgba(229, 229, 229, 0.58);
@@ -311,7 +311,7 @@
 }
 
 .page1 .img-decoration{
-	margin-left: 17vw;
+	margin-left: 70%;
 }
 
 .page1 .bolha-comecar{
@@ -319,7 +319,7 @@
 	width: 360px;
 	height: 354px;
 	top: 450px;
-	left: 50vw;
+	left: 55%;
 	border-radius: 50%;
 
 	/* Lilás 01 */
