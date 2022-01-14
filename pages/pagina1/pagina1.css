@@ -166,12 +166,9 @@
 .page1 .titulo3{
     font-family: Schoolbell;
 	font-size: 30px;
+	text-align: center;
 	position: absolute;
-	display: flex;
-	align-items: center;
-	justify-content: center;
 	width: 760px;
-	height: 54px;
 	left: 50px;
 
 	/* Amarelo 01 */
@@ -190,7 +187,7 @@
 	width: 360px;
 	height: 354px;
 	top: 110px;
-	left: 15vw;
+	left: 18%;
 	border-radius: 50%;
 
 	/* Lilás 01 */
@@ -202,7 +199,6 @@
     font-size: 20px;
 	padding: 30px 40px;
 	text-align: center;
-	width: 250px;
 }
 
 .page1 .conceitos-economia{
@@ -214,13 +210,10 @@
 
 .page1 .titulo4{
     font-family: Schoolbell;
+	text-align: center;
 	font-size: 30px;
 	position: absolute;
-	display: flex;
-	align-items: center;
-	justify-content: center;
 	width: 760px;
-	height: 54px;
 	left: 50px;
 	top: 50px;
 
