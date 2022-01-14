@@ -348,3 +348,23 @@ body {
   opacity: 1;
   text-align: left;
 }
+
+.frufru.roxo {
+	position: absolute;
+	width: 64px;
+	height: 1267.71px;
+	left: 0;
+	top: 169px;
+
+	background: #605299;
+}
+.frufru.branco {
+	position: absolute;
+	width: 54px;
+	height: 1436.86px;
+	right: 0;
+	top: 1436.86px;
+
+	/* Cinza transparente 01 */
+	background: rgba(229, 229, 229, 0.58);
+}
