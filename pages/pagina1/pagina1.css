@@ -59,7 +59,7 @@
 	display: flex;
     position: relative;
     width: 100%;
-	height: 400px;
+	height: 350px;
 }
 
 .page1 .titulo2{
@@ -114,22 +114,280 @@
 }
 
 .page1 .img1-logo{
-	position: absolute;
-    left: 20vw;
+	display: flex;
+    position: relative;
+    width: 100%;
+    left: 18vw;
+	height: 250px;
 }
 
+.page1 .grafico1{
+	position: relative;
+	display: flex;
+	height: 400px;
+}
 
+.page1 .img-grafico1{
+	position: absolute;
+	left: 8vw;
+	top: 50px;
+}
 
+.page1 .texto4{
+	position: absolute;
+	width: 671px;
+	height: 152px;
+	left: 45vw;
+	top: 95px;
 
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgba(229, 229, 229, 0.58);
+	padding: 10;
+	text-align: center;	
+}
+
+.page1 .educacao-financeira{
+	display: flex;
+    position: relative;
+    width: 100%;
+	height: 475px;
+}
+
+.page1 .titulo3{
+    font-family: Schoolbell;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 760px;
+	height: 54px;
+	left: 42px;
+
+	/* Amarelo 01 */
+	background: rgba(241, 245, 37, 0.64);
+	font-weight: 600;	
+}
+
+.page1 .img2-logo{
+	position: relative;
+	left: 50vw;
+	top: 120px;
+}
+
+.page1 .bolha-educacao{
+	position: absolute;
+	width: 360px;
+	height: 354px;
+	top: 110px;
+	left: 15vw;
+	border-radius: 50%;
+
+	/* Lilás 01 */
+	background: rgba(210, 190, 230, 0.83);	
+}
+
+.page1 .texto5{
+	text-align: center;
+	/* margin-top: 50px; */
+	width: 250px;
+	margin-left: 55px;
+	margin-top: 20px;
+}
+
+.page1 .conceitos-economia{
+	display: flex;
+    position: relative;
+    width: 100%;
+	height: 550px;	
+}
+
+.page1 .titulo4{
+    font-family: Schoolbell;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 760px;
+	height: 54px;
+	left: 42px;
+	top: 50px;
+
+	/* Amarelo 01 */
+	background: rgba(241, 245, 37, 0.64);
+	font-weight: 600;	
+}
+
+.page1 .grafico2{
+	position: absolute;
+	left: 8vw;
+	top: 170px;
+}
+
+.page1 .texto6{
+	position: absolute;
+	width: 671px;
+	height: 152px;
+	left: 45vw;
+	top: 150px;
+
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgba(229, 229, 229, 0.58);
+	padding: 10;
+	text-align: center;	
+}
+
+.page1 .olha{
+	position: absolute;
+	font-weight: 600;	
+	font-family: Schoolbell;
+	width: 671px;
+	height: 152px;
+	left: 45vw;
+	top: 95px;
+
+	/* background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgba(229, 229, 229, 0.58); */
+	padding: 10;
+	text-align: center;	
+}
+
+.page1 .economia{
+	display: flex;
+    position: relative;
+    width: 100%;
+	height: 850px;
+}
+
+.page1 .texto7{
+	display: flex;
+	flex-direction: column;
+}
+
+.page1 .titulo5{
+    font-family: Schoolbell;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 760px;
+	height: 54px;
+	left: 42px;
+	top: 50px;
+
+	/* Amarelo 01 */
+	background: rgba(241, 245, 37, 0.64);
+	font-weight: 600;		
+}
+
+.page1 .texto7{
+	font-family: Schoolbell;
+	margin-top: 150px;
+	margin-left: 170px;
+	font-weight: 600;
+}
+
+.page1 .p1,
+.p3, .p5{
+	text-align: right;
+	margin-top: 0;
+}
+
+/* .page1 .p1,.p2,.p3,.p4,.p5{
+	margin-top: 0;
+	margin-bottom: 10px;
+
+} */
+
+.page1 .f1, .f2{
+	width: 50px;
+	height: 50px;
+}
+
+.page1 .f1{
+	margin-left: 150px;
+}
+
+.page1 .f2{
+	margin-left: 300px;
+}
+
+.page1 .img-decoration{
+	margin-left: 17vw;
+}
+
+.page1 .bolha-comecar{
+	position: absolute;
+	width: 360px;
+	height: 354px;
+	top: 450px;
+	left: 50vw;
+	border-radius: 50%;
+
+	/* Lilás 01 */
+	background: rgba(210, 190, 230, 0.83);	
+}
+
+.page1 .atencao1{
+	font-family: Schoolbell;
+	font-weight: 600;
+	display: flex;
+	justify-content: center;
+	margin-top: 55px;
+}
+
+.page1 .texto8{
+	text-align: center;
+}
+
+.page1 .curso{
+	display: flex;
+    position: relative;
+    width: 100%;
+	height: 300px;
+}
+
+.page1 .texto9{
+	position: absolute;
+	width: 671px;
+	height: 152px;
+	left: 130px;
+	top: 75px;
+
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgba(229, 229, 229, 0.58);
+	padding: 10;
+	text-align: center;		
+}
+
+.page1 .acesso{
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	left: 52vw;
+	top: 7vw;
+	background: rgba(241, 245, 37, 0.64);
+
+	width: 230px;
+	height: 80px;
+}
+
+.page1 .texto10{
+	text-decoration: none;
+	color: #000000;	
+}
+
+.page1 .img-flecha1{
+	margin-left: 20px;
+	width: 70px;
+	height: 30px;
+}
 
 .page1 .bloco-borda {
 	position: absolute;
 	left: 0;
-	top: 218px;
+	top: 400px;
 	width: 50px;
-	height: 100%;
+	height: 3200px;
 
 	background: #605299;
 
 	/* height: calc(100% - 218px); */
 }
+
