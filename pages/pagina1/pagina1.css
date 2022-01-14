@@ -95,7 +95,7 @@
 	position: absolute;
 	width: 360px;
 	height: 354px;
-	left: 51vw;
+	left: 70%;
 	border-radius: 50%;
 
 	/* Lilás 01 */
@@ -112,6 +112,7 @@
 
 .page1 .bolha-voce-sabia .texto3{
 	text-align: center;
+	padding: 0 28px;
 }
 
 .page1 .img1-logo{
