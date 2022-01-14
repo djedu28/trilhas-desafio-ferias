@@ -30,7 +30,7 @@ microroute("/Palavras_Cruzadas",()=>{
 })
 
 microroute("/Duvidas",()=>{
-	laodPage("pagina7",{js:false})
+	laodPage("duvidas",{js:false})
 })
 
 microroute("/",()=>{

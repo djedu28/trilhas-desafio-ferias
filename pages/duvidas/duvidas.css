@@ -1,0 +1,350 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.duvidas input,
+.duvidas textarea {
+	font-family: Roboto;
+	font-weight: Regular;
+	font-size: 24px;
+	padding: 10px;
+}
+.duvidas {
+  width: 100%;
+  height: 1300px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  margin: 33px 0 0 0;
+  overflow: hidden;
+  
+  position:	 relative;
+}
+.duvidas .v346_1194 {
+  width: 349px;
+  height: 54px;
+  opacity: 1;
+  position: absolute;
+  top: 1200px;
+  left: 945px;
+  overflow: hidden;
+  background: rgba(241,245,36,0.6399999856948853);
+}
+.duvidas .v346_1035 {
+  width: 349px;
+  height: 54px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.duvidas .v346_1044 {
+  width: 314px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 5px;
+  left: 18px;
+  font-family: Schoolbell;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+.duvidas .v346_1196 {
+  width: 100%;
+  height: 202px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 993px;
+  left: 172px;
+  overflow: hidden;
+}
+.duvidas .v346_1193 {
+  width: 100%;
+  height: 202px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.duvidas .v346_1043 {
+  width: 100%;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-family: Schoolbell;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+  width: 1116px;
+  height: 202px;
+}
+.duvidas .v346_1195 {
+  width: 100%;
+  height: 508px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 404px;
+  left: 157px;
+  overflow: hidden;
+}
+.duvidas .v346_1191 {
+  width: 715px;
+  height: 499px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 9px;
+  left: 0px;
+  overflow: hidden;
+}
+.duvidas .v346_1192 {
+  width: 227px;
+  height: 54px;
+  opacity: 1;
+  position: absolute;
+  top: 445px;
+  left: 308px;
+  overflow: hidden;
+  background: rgba(229,229,229,0.5799999833106995);
+  
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+
+  text-align: center;
+  
+  justify-content: center;
+	display: flex;
+	align-items: center;
+}
+
+.duvidas .v346_1187 {
+  width: 609px;
+  height: 47px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 19px;
+  overflow: hidden;
+}
+.duvidas .v346_1038 {
+  width: 488px;
+  height: 47px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 121px;
+  border: 1px solid rgba(0,0,0,1);
+  overflow: hidden;
+}
+.duvidas .v346_1047 {
+  width: 71px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 8px;
+  left: 0px;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.duvidas .v346_1188 {
+  width: 608px;
+  height: 47px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 47px;
+  left: 20px;
+  overflow: hidden;
+}
+.duvidas .v346_1037 {
+  width: 488px;
+  height: 47px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 120px;
+  border: 1px solid rgba(0,0,0,1);
+  overflow: hidden;
+}
+.duvidas .v346_1048 {
+  width: 66px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 19px;
+  left: 0px;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.duvidas .v346_1189 {
+  width: 715px;
+  height: 262px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 154px;
+  left: 0px;
+  overflow: hidden;
+}
+.duvidas .v346_1036 {
+  width: 575px;
+  height: 262px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 140px;
+  border: 1px solid rgba(0,0,0,1);
+  overflow: hidden;
+}
+.duvidas .v346_1049 {
+  width: 103px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.duvidas .v346_1186 {
+  width: 400px;
+  height: 400px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 731px;
+  overflow: hidden;
+}
+.duvidas .v346_1050 {
+  width: 400px;
+  height: 400px;
+  background: url("../images/v346_1050.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.duvidas .v346_1190 {
+  width: 100%;
+  height: 354px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.duvidas .v346_1183 {
+  width: 808px;
+  height: 54px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  overflow: hidden;
+}
+.duvidas .v346_1034 {
+  width: 808px;
+  height: 54px;
+  background: rgba(241,245,36,0.6399999856948853);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.duvidas .v346_1039 {
+  width: 100px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 2px;
+  left: 259px;
+  font-family: Schoolbell;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+.duvidas .v346_1185 {
+  width: 360px;
+  height: 354px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 920px;
+  overflow: hidden;
+}
+.duvidas .v346_1040 {
+  width: 360px;
+  height: 354px;
+  background: rgba(209,190,229,0.8299999833106995);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 50%;
+}
+.duvidas .v346_1041 {
+  width: 299px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 124px;
+  left: 41px;
+  font-family: Schoolbell;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+.duvidas .v346_1184 {
+  width: 730px;
+  height: 196px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 134px;
+  left: 142px;
+  overflow: hidden;
+  background: rgba(209,190,229,0.8299999833106995);
+}
+
+.duvidas .v346_1042 {
+  width: 700px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 14px;
+  left: 19px;
+  font-family: Schoolbell;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
