@@ -46,7 +46,7 @@
 	top: 150px;
 
 	background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgba(229, 229, 229, 0.58);
-	padding: 10;
+	padding: 10px; /*tava sem a unidade px*/
 	text-align: center;
 
 }
@@ -91,7 +91,7 @@
 	top: 95px;
 
 	background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgba(229, 229, 229, 0.58);
-	padding: 10;
+	padding: 10px; /*tava sem a unidade px*/
 	text-align: center;
 }
 
@@ -155,7 +155,7 @@
 	top: 95px;
 
 	background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgba(229, 229, 229, 0.58);
-	padding: 10;
+	padding: 10px; /*tava sem a unidade px*/
 	text-align: center;	
 }
 
@@ -241,7 +241,7 @@
 	top: 150px;
 
 	background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgba(229, 229, 229, 0.58);
-	padding: 10;
+	padding: 10px; /*tava sem a unidade px*/
 	text-align: center;	
 }
 
@@ -256,7 +256,7 @@
 	top: 95px;
 
 	/* background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgba(229, 229, 229, 0.58); */
-	padding: 10;
+	padding: 10px; /*tava sem a unidade px*/
 	text-align: center;	
 }
 
@@ -373,7 +373,7 @@
 	top: 75px;
 
 	background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgba(229, 229, 229, 0.58);
-	padding: 10;
+	padding: 10px; /*tava sem a unidade px*/
 	text-align: center;		
 }
 

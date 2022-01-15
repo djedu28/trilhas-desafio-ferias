@@ -53,7 +53,7 @@
 
 	background: rgba(241, 245, 37, 0.64);
 
-	padding: 10;
+	padding: 10px;
 	text-align: center;
 
 }
@@ -101,8 +101,6 @@
 	margin: 10px 0;
 }
 
-
-}
 .quiz .perguntas p,
 .quiz .perguntas label {
 	margin-bottom: 21px;
