@@ -126,8 +126,11 @@
 	display: flex;
     position: relative;
     width: 100%;
-    left: 18vw;
+    /* left: 18vw; */
 	height: 250px;
+}
+.page1 .img1-logo img {
+	margin-left: 178px;
 }
 
 .page1 .grafico1{
