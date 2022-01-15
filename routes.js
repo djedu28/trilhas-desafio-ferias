@@ -7,6 +7,14 @@ $(function () {
 
 
 
+microroute.callbacks.push((ctx,nx)=>{
+	console.log("_____meed",{ctx})
+	const name = ctx.path.split("/").reverse()[0]
+	if (document.getElementById(`nav2_${name}`) )
+		document.getElementById(`nav2_${name}`).checked=1
+	nx();
+})
+
 microroute("/Entrar",()=>{
 	console.log("Entrando")
 	popUp("entrar");

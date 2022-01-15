@@ -14,12 +14,51 @@
 		</div>
 		<nav class="nav2">
 			<ul>
-				<div><span><i/></span><a href="/">Início</a></div>
-				<div><span><i/></span><a href="/Fotos_e_Fatos">Fotos e Fatos</a></div>
-				<div><span><i/></span><a href="/Palavras_Cruzadas">Palavras Cruzadas</a></div>
-				<div><span><i/></span><a href="/Quiz">Quiz da Semana</a></div>
-				<div><span><i/></span><a href="/Duvidas">Dúvidas</a></div>
+				<div><a href="/">Início</a></div>
+				<div><a href="/Fotos_e_Fatos">Fotos e Fatos</a></div>
+				<div><a href="/Palavras_Cruzadas">Palavras Cruzadas</a></div>
+				<div><a href="/Quiz">Quiz da Semana</a></div>
+				<div><a href="/Duvidas">Dúvidas</a></div>
 			</ul>
 		</nav>
 	</div>
 </header>
+
+<script>   
+// template do icone
+var icones = `<input type="radio" name="{name}" value="{value}" id="{id}" checked="{checked}"><i/>`
+</script>   
+<script>   
+
+// Very basic templating
+// https://stackoverflow.com/questions/19041216/javascript-map-elements-of-an-array-to-html-div-template/19041264
+function render(template, data) {
+  var patt = /\{([^}]+)\}/g; // matches {key}
+  return template.replace(patt, function(_, key) {
+    return data[key];
+  });
+}
+const nav = document.getElementsByClassName("nav2")[0]
+const links = [].slice.call(nav.getElementsByTagName("div"))
+
+links.forEach(div=>{
+	const span = document.createElement('span');
+	const a = div.getElementsByTagName("a")[0]	
+	const name = a.href.split("/").reverse()[0]
+    
+	const data = {
+		name   : "nav2",
+		value  : name,
+		id     : "nav2_"+name,
+	}
+
+	span.innerHTML = render(icones, data)
+	<!-- a.appendChild(span); -->
+	a.before(span);
+})
+
+const path = location.pathname.split("/").reverse()[0]
+if (document.getElementById(`nav2_${path}`) )
+		document.getElementById(`nav2_${path}`).checked=1
+
+</script>

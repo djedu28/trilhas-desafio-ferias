@@ -126,7 +126,8 @@
 	justify-content: space-around;
 }
 
-.header nav div {
+.header nav div,
+.header nav label {
     display: flex;
     align-items: center;
 	justify-content: center;
@@ -139,6 +140,8 @@
     border-radius: 50%;
     background-color: var(--amarelo-01-color);
     margin-right: 10px;
+	transition: background 0.5s linear;
+
 }
 .header nav .i-azul{
     background-color: var(--roxo-01-color);
@@ -195,7 +198,8 @@
 	width: auto;
   }
   
-  .header nav div {
+  .header nav div,
+  .header nav label{
 	justify-content: left;
 	margin:5px;
   }
@@ -238,4 +242,10 @@
   .header .titulo {
     width: 90%;
 }
+}
+.header input[type=radio]:checked ~ i{
+	background: #605299;
+}
+.header input[type=radio] {
+	display: none;
 }
