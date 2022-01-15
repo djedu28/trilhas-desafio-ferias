@@ -35,10 +35,10 @@ function laodJs(pathname){
 
 }
 function laodComp(name,{html,js,css}={}){
-	console.log("laodComp",name,{html,js,css})
-	if ( !!html||html===undefined ) renderHtml(`#${name}`,`./componentes/${name}/${name}.html`);
-	if ( !!css ||css===undefined ) laodCss(`./componentes/${name}/${name}.css`);
-	if ( !!js  ||js===undefined ) laodJs(`./componentes/${name}/${name}.js`);
+	// console.log("laodComp",name,{html,js,css})
+	if ( !!html||html===undefined ) renderHtml(`#${name}`,`/componentes/${name}/${name}.html`);
+	if ( !!css ||css===undefined ) laodCss(`/componentes/${name}/${name}.css`);
+	if ( !!js  ||js===undefined ) laodJs(`/componentes/${name}/${name}.js`);
 }
 
 function laodPage(name,{html,js,css}={}){

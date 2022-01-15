@@ -7,12 +7,14 @@ $(function () {
 
 
 
-microroute("#Entrar",()=>{
-	popUp("Entrar");
+microroute("/Entrar",()=>{
+	console.log("Entrando")
+	popUp("entrar");
 })
 
-microroute("#Inscrever",()=>{
-	popUp("Inscrever");
+microroute("/Inscrever",()=>{
+	console.log("Increver")
+	popUp("cadastrar");
 })
 
 microroute("/Fotos_e_Fatos",()=>{

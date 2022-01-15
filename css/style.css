@@ -25,6 +25,10 @@ textarea {
   max-width: 1400px;
 }
 
+button {
+	cursor: pointer;
+}
+
 @media (min-width: 700px) {
   :root {
     font-size: 70.5%;
