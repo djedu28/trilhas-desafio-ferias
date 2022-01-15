@@ -1,6 +1,6 @@
 .container__titulo--texto1{
 	font-family: 'Schoolbell', cursive;
-	font-weight: 400px;
+	font-weight: 400;
 	font-size: 32px;
 	line-height: 45px;
 }
@@ -74,7 +74,7 @@
 
 .container__dicas--texto p {
 	font-family: 'Schoolbell', cursive;
-	font-weight: 400px;
+	font-weight: 400;
 	font-size: 32px;
 	line-height: 45px;
 }
@@ -86,9 +86,10 @@
 }
 .dicas__lista ol li{
 	font-family: Rokkitt;
-	font-weight: 400px;
+	font-weight: 400;
 	font-size: 24px;
-	line-height: 27,29px;
+	/*line-height: 27,29px;*/
+	line-height: 28px;
 }
 
 .container__niveis{
@@ -104,6 +105,6 @@
 	font-family: 'Schoolbell', cursive;
 	font-size: 32px;
 	line-height: 42px;
-	font-weight: 400px;
+	font-weight: 400;
 	margin-top: 10px;
 }

@@ -216,7 +216,7 @@
 	flex-direction: column;	    
   }
   .titulo {
-	max-weight: 850px;
+	max-width: 850px;
   }
   .header .titulo {
 	  width: 60%;

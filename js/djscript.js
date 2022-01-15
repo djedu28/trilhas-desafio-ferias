@@ -22,7 +22,7 @@ function laodCss(pathname){
 }
 
 function laodJs(pathname){
-	console.log("laodJs",pathname)
+	// console.log("laodJs",pathname)
 	const js = $("<script>", {
 	  // "rel" : "module",
 	  "type" :  "text/javascript",

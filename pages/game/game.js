@@ -87,7 +87,7 @@ mapa.forEach((linha,i) => {
 
 function testeLetra(e){
 	e.target.value = e.target.value.toUpperCase()
-	console.log("testeLetra",{e});
+	// console.log("testeLetra",{e});
 	const value = e.target.value;
 	
 	const i = e.target.getAttribute("i")
