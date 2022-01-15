@@ -126,3 +126,13 @@
 .entrar label{
 	min-width: 28%;
 }
+
+
+@media (max-width: 1000px) {
+	.auth .bloco,
+	.auth label {
+		display: block;
+		text-align: left;
+	}
+}
+
