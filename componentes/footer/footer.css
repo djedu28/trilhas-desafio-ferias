@@ -47,8 +47,8 @@
 }
 .footer .info {
 
-	width: 372px;
-	height: 90px;
+	max-width: 372px;
+	/* height: 90px; */
 
 	font-family: Schoolbell;
 	font-style: normal;

@@ -210,7 +210,8 @@
 	
   }
   .header .nav2 {
-	width: 350px;
+	width: 360px;
+	padding: 10px 0;
   }
   .header .nav2 ul {
 	flex-direction: column;	    
@@ -232,17 +233,23 @@
 
   }
 }
-@media (max-width: 628px) {
-.n2 {
-	  
-	display: flex;
-	flex-direction: column;
 
-  }
-  .header .titulo {
-    width: 90%;
+@media (max-width: 628px) {
+	.header .n2 {
+		display: flex;
+		flex-direction: column;
+		
+
+	}
+	.header .nav2 {
+		width: 100%;
+	}
+	.header .titulo {
+		width: 100%;
+		padding: 10px;
+	}
 }
-}
+
 .header input[type=radio]:checked ~ i{
 	background: #605299;
 }
