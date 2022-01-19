@@ -1,6 +1,6 @@
 .page1 {
     width: 90%;
-	/* font-family: 'Rokkitt', serif; */
+	/* font-family: 'Roboto', serif; */
 	font-style: normal;
 	font-weight: normal;
 	font-size: 20px;
@@ -19,7 +19,7 @@
 }
 
 .page1 .titulo1{
-    font-family: Schoolbell;
+    font-family: 'EXO';
 	font-size: 30px;
 	display: flex;
 	position: absolute;
@@ -37,7 +37,7 @@
 }
 
 .page1 .texto1{
-    font-family: Rokkitt;
+    font-family: Roboto;
 	font-size: 20px;
 	position: absolute;
 	width: 671px;
@@ -65,7 +65,7 @@
 }
 
 .page1 .titulo2{
-    font-family: Schoolbell;
+    font-family: 'EXO';
 	font-size: 30px;
 	position: absolute;
 	display: flex;
@@ -82,7 +82,7 @@
 }
 
 .page1 .texto2{
-    font-family: Rokkitt;
+    font-family: Roboto;
 	font-size: 20px;
 	position: absolute;
 	width: 671px;
@@ -110,13 +110,13 @@
 	margin-top: 15px;
 	font-size: 30px;
 	font-weight: 600;
-	font-family: Schoolbell;
+	font-family: 'EXO';
 	display: flex;
 	justify-content: center;
 }
 
 .page1 .bolha-voce-sabia .texto3{
-	font-family: Rokkitt;
+	font-family: Roboto;
     font-size: 20px;
 	text-align: center;
 	padding: 0 35px;
@@ -146,7 +146,7 @@
 }
 
 .page1 .texto4{
-	font-family: Rokkitt;
+	font-family: Roboto;
     font-size: 20px;
 	position: absolute;
 	width: 671px;
@@ -167,7 +167,7 @@
 }
 
 .page1 .titulo3{
-    font-family: Schoolbell;
+    font-family: 'EXO';
 	font-size: 30px;
 	text-align: center;
 	position: absolute;
@@ -198,7 +198,7 @@
 }
 
 .page1 .texto5{
-	font-family: Rokkitt;
+	font-family: Roboto;
     font-size: 20px;
 	padding: 30px 40px;
 	text-align: center;
@@ -212,7 +212,7 @@
 }
 
 .page1 .titulo4{
-    font-family: Schoolbell;
+    font-family: 'EXO';
 	text-align: center;
 	font-size: 30px;
 	position: absolute;
@@ -232,7 +232,7 @@
 }
 
 .page1 .texto6{
-	font-family: Rokkitt;
+	font-family: Roboto;
     font-size: 20px;
 	position: absolute;
 	width: 671px;
@@ -249,7 +249,7 @@
 	position: absolute;
 	font-size: 30px;
 	font-weight: 600;	
-	font-family: Schoolbell;
+	font-family: 'EXO';
 	width: 671px;
 	height: 152px;
 	left: 45vw;
@@ -273,7 +273,7 @@
 }
 
 .page1 .titulo5{
-    font-family: Schoolbell;
+    font-family: 'EXO';
 	font-size: 30px;
 	position: absolute;
 	display: flex;
@@ -290,7 +290,7 @@
 }
 
 .page1 .texto7{
-	font-family: Schoolbell;
+	font-family: 'EXO';
 	margin-top: 150px;
 	margin-left: 170px;
 	font-weight: 600;
@@ -338,7 +338,7 @@
 }
 
 .page1 .atencao1{
-	font-family: Schoolbell;
+	font-family: 'EXO';
 	font-size: 30px;
 	font-weight: 600;
 	text-align: center;
@@ -348,7 +348,7 @@
 
 .page1 .texto8{
 	font-size: 24px;
-    font-family: 'Rokkitt';
+    font-family: 'Roboto';
 	padding: 0 20px;
 	text-align: center;
 }
@@ -366,7 +366,7 @@
 .page1 .texto9{
 	/* position: absolute; */
 	font-size: 20px;
-    font-family: 'Rokkitt';
+    font-family: 'Roboto';
 	width: 671px;
 	height: 152px;
 	left: 130px;

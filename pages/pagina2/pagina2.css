@@ -1,6 +1,6 @@
 .pagina2 {
 	margin: 50px 0;
-	font-family: Schoolbell;
+	font-family: 'EXO';
 	font-style: normal;
 	font-weight: normal;
 	font-size: 32px;
@@ -36,7 +36,7 @@
 	
 }
 .pagina2 .textoh1{
-	font-family: Schoolbell;
+	font-family: 'EXO';
 	font-style: normal;
 	font-weight: normal;
 	font-size: 32px;
@@ -115,7 +115,7 @@
 
 
 .pagina2 .fonte {
-	font-family: Rokkitt;
+	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
@@ -129,7 +129,7 @@
 	display:flex;
 	flex-direction: column;
 	justify-content: center;
-	font-family: Rokkitt;
+	font-family: Roboto;
 	
 	font-style: normal;
 	font-weight: normal;

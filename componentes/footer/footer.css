@@ -20,7 +20,7 @@
 	margin: 0 24px;
 	text-align:center;
 
-	font-family: 'Schoolbell';
+	font-family: ''EXO'';
 	font-style: normal;
 	font-weight: normal;
 	font-size: 32px;
@@ -50,7 +50,7 @@
 	max-width: 372px;
 	/* height: 90px; */
 
-	font-family: Schoolbell;
+	font-family: 'EXO';
 	font-style: normal;
 	font-weight: normal;
 	font-size: 32px;
@@ -69,7 +69,7 @@
 	/* amarelo-claro */
 	background: var(--amarelo-claro-color);
 
-	font-family: Schoolbell;
+	font-family: 'EXO';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 24px;
@@ -142,7 +142,7 @@
 }
 .footer .membro p {
 
-	font-family: 'Rokkitt';
+	font-family: 'Roboto';
 	font-style: normal;
 	font-size: 16px;
 	line-height: 18px;

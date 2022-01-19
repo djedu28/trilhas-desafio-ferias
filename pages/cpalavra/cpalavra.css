@@ -1,5 +1,5 @@
 .container__titulo--texto1{
-	font-family: 'Schoolbell', cursive;
+	font-family: 'EXO', cursive;
 	font-weight: 400;
 	font-size: 32px;
 	line-height: 45px;
@@ -41,7 +41,7 @@
 }
 
 .container__jogo--texto h2{
-	font-family: Rokkitt;
+	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 24px;
@@ -53,7 +53,7 @@
 }
 
 .container__jogo--texto h3{
-	font-family: 'Schoolbell', cursive;
+	font-family: 'EXO', cursive;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 32px;
@@ -73,7 +73,7 @@
 }
 
 .container__dicas--texto p {
-	font-family: 'Schoolbell', cursive;
+	font-family: 'EXO', cursive;
 	font-weight: 400;
 	font-size: 32px;
 	line-height: 45px;
@@ -85,7 +85,7 @@
 	margin: 15px 85px 0px 150px;
 }
 .dicas__lista ol li{
-	font-family: Rokkitt;
+	font-family: Roboto;
 	font-weight: 400;
 	font-size: 24px;
 	/*line-height: 27,29px;*/
@@ -102,7 +102,7 @@
 }
 
 .container__niveis--texto p{
-	font-family: 'Schoolbell', cursive;
+	font-family: 'EXO', cursive;
 	font-size: 32px;
 	line-height: 42px;
 	font-weight: 400;
