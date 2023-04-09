@@ -37,7 +37,10 @@ Por não usar framework, e necessitar de gerenciar rotas, o @DjEdu28 aplicou o u
 
 
 
+# Preview
+Acesse o site:  (trilhas-gfa.vercel.app)[trilhas-gfa.vercel.app]
 
+<img src="/preview.png">
 
 
 
